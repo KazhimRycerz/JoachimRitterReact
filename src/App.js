@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {  
+  BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
+import PersonalData from './components/PersonalData'
+import Motivation from './components/Motivation'
+import Career from './components/Career'
+import Experience from './components/Experience'
+import MyFuture from './components/MyFuture'
+import ContactAndSocialMedia from './components/ContactAndSocialMedia'
+import Page404 from './components/Page404';
+import './App.scss';
+   
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <Router>
+        <Routes>
+          <Route path="*" element={<Page404 />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/PersonalData" element={<PersonalData />} />
+          <Route path="/Motivation" element={<Motivation />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Career" element={<Career />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/MyFuture" element={<MyFuture />} />
+          <Route path="/ContactAndSocialMedia" element={<ContactAndSocialMedia />} />
+        </Routes>
+      </Router>
+
+    </>
+
+  )
+};
 
 export default App;

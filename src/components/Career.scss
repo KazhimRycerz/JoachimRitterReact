@@ -1,0 +1,24 @@
+@import "../App.scss";
+
+.third {
+    opacity: 1;
+    animation: paused;
+    z-index: 11;
+  }
+.box5 .article_ca {
+    /* background: rgba(250, 200, 80, 0.2); */
+    h2 {
+      background: linear-gradient(rgba(60, 85, 185, 0.3), rgba(60, 85, 185, 0.05)), linear-gradient(rgba(255, 255, 255, 1.0)75%,rgba(255, 255, 255, 0.5));
+    }
+    p {
+      background: rgba(60, 85, 185, 0.05);
+      padding-bottom: 50px;
+    }
+    >div {
+      background: transparent;
+      //border: solid;
+    }
+}
+.career {
+    color:rgb(60, 85, 185);
+}
