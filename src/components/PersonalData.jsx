@@ -8,12 +8,13 @@ const PersonalData = () => (
       <div className="box1"></div>
       <div className="box2">
         <h1 >Personal data</h1>
-        <p>Learn about Joachim Ritter as a private person</p>
+        {/* <p>Learn about Joachim Ritter as a private person</p> */}
       </div>
       <header className="box3">
         <figure> 
-          <img src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" />
-          <figcaption>Joachim Ritter</figcaption>
+          {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
+            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
+            <figcaption>Joachim Ritter</figcaption>
         </figure>
       </header>
       <div className="box4">
@@ -63,7 +64,8 @@ const PersonalData = () => (
             <li className="personalData">personal data </li>
             <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()">philosophy / <br />motivation</NavLink></li>
             <li><NavLink to ="/Career"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()">career / <br />my way...</NavLink></li>
-            <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()">experience and <br />professional impact</NavLink></li>
+            <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()">experience and <br />professional <br />impact</NavLink></li>
+            <li><NavLink to ="/References"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >references</NavLink></li>
             <li><NavLink to ="/MyFuture"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()">my future</NavLink></li>
             <li><NavLink to ="/ContactAndSocialMedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >contact and <br />social media</NavLink></li>
           </ul>

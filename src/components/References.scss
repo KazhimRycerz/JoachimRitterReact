@@ -1,0 +1,62 @@
+@import "../App.scss";
+
+.seventh {
+    opacity: 1;
+    animation: paused;
+    z-index: 11;
+}
+
+.reference {
+      color:rgb(100, 5, 80);
+}
+
+.box5 {  
+  .box5_re {
+    background-color: rgba(100, 5, 80, 0.1);
+    //border: solid;
+    h2 {
+      //font-family: "Xero";
+      background: linear-gradient(rgba(100, 5, 80, 0.4)60%, rgba(100, 5, 80, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)60%,rgba(255, 255, 255, 0.0));
+      position:sticky;
+      min-height: 100px;
+      margin-bottom: 0px;
+    }
+    #references_JR {
+      background: rgba(100, 5, 80, 0.2);
+      position: relative;
+      top: -100px;
+      padding-top: 80px;
+      //border: solid ;
+    }
+    h3 {
+      padding-left: 20px;
+    }
+    
+    .references {
+      //background: rgba(195, 70, 30, 0.1);
+      padding-left:10px;
+      margin-bottom: 20px;
+      width: 90%;
+      h4 {
+        margin-top: 0px;
+        padding: 0px 0 0 10px;
+        padding-bottom: 0px;
+        font-weight:bolder;
+        text-align: left;
+      }
+      q {
+        padding: 0px;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.0rem;
+        display: block;
+        text-align: left;
+      }
+      p {
+        font-size: $normal;
+        background-color: transparent;
+        width: 80%;
+      }
+    }
+  }
+}

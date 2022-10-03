@@ -8,26 +8,29 @@ const MyFuture = () => (
       <div className="box1"></div>
       <div className="box2">
         <h1 >Where I see my future</h1>
-        <p>The journey is the reward</p>
+        {/* <p>The journey is the reward</p> */}
       </div>
       <header className="box3">
         <figure> 
-          <img src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" />
-          <figcaption>Joachim Ritter</figcaption>
+         {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
+            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
+            <figcaption>Joachim Ritter</figcaption>
         </figure>
       </header>
       <div className="box4">
         <div>
-          <a href=""><img id="basis" src="Images/1200px-Fingerprint_picture.png" alt="" /></a>
-          <a><img className="sixth" src="./Images/IMG_3560.PNG" alt="" /></a>
+          <img id="basis" src="Images/1200px-Fingerprint_picture.png" alt="" />
+          <img className="sixth" src="./Images/IMG_3560.PNG" alt="" />
         </div>
       </div>  
       <div className = "box5">  
-        <article className="box5_mf">
-            <h2>Still enjoying challenges</h2>
-            <p> I still enjoy developing new ideas an  Meine Pläne sind noch nicht beendet. Ich lebe, um zu Arbeiten und arbeite nicht, um zu leben. lorem jlkj lkhj jh gouzg lghljkhlkj hlkjhlkjhlkj hlkjguzt f ztfk hg lglglk lkjhkj hlkjhlkjhlkjh lkjlkjhlkjhlkh lorem jlkj lkhj jh gouzg lghljkhlkj hlkjhlkjhlkj hlkjguzt f ztfk hg lglglk lkjhkj hlkjhlkjhlkjh lkjlkjhlkjhlkh. lorem jlkj lkhj jh gouzg lghljkhlkj hlkjhlkjhlkj hlkjguzt f ztfk hg lglglk lkjhkj hlkjhlkjhlkjh lkjlkjhlkjhlkh</p>
-            <p> lorem jlkj lkhj jh gouzg lghljkhlkj hlkjhlkjhlkj hlkjguzt f ztfk hg lglglk lkjhkj hlkjhlkjhlkjh lkjlkjhlkjhlkh</p>
-            <p> lorem jlkj lkhj jh gouzg lghljkhlkj hlkjhlkjhlkj hlkjguzt f ztfk hg lglglk lkjhkj hlkjhlkjhlkjh lkjlkjhlkjhlkh</p>
+        <article className="article_mf">
+            <h2>The journey is the reward</h2>
+            <div>
+              <p> I still enjoy developing new ideas and accept challenges. My philosophy is "living to work instead of working to survive". Nevertheless I am realistic and evaluate before I accept a challenge. I am able to analyse and make realistic decisions.</p><br />
+              <p> In this aspect webdesign and webdevelopment is a consequent step. From the conventional communication and printing technology of the last century / millenium now being able to be a part of the digital revolution is my basis for the upcoming years. Seeing opportunities and realising new developments is just my thing.</p>
+              <p>Webdesign is the consequent part of my professional carrer and personal development.</p>
+            </div>
         </article>
       </div>
       <nav className="box6">
@@ -36,7 +39,8 @@ const MyFuture = () => (
           <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >personal data</NavLink></li>
           <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >philosophy / <br />motivation</NavLink></li>
           <li><NavLink to ="/Career"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >carrer / <br />my way...</NavLink></li>
-          <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >experience and <br />professional impact</NavLink></li>
+          <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >experience and <br />professional <br />impact</NavLink></li>
+          <li><NavLink to ="/References"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >references</NavLink></li>
           <li className="myfuture"> my future</li>
           <li><NavLink to ="/ContactAndSocialMedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >contact and <br />social media</NavLink></li>
         </ul>

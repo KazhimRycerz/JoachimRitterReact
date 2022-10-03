@@ -12,7 +12,8 @@ const Home = () => (
         </div>
         <header className="box3">
           <figure> 
-            <img src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" />
+            {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
+            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
             <figcaption>Joachim Ritter</figcaption>
           </figure>
         </header>
@@ -33,12 +34,13 @@ const Home = () => (
         <div className="box5">
           <nav>
             <ul id="home_contens">
-                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long fapd"></i></p> personal data</NavLink></li>
-                <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long famo"></i></p> professional philosophy and motivation</NavLink></li>
-                <li><NavLink to ="/Career" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long faca"></i></p> career - how I met my ...</NavLink></li>
-                <li><NavLink to ="/Experience" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long faex"></i></p> experience and professional impact</NavLink></li>
-                <li><NavLink to ="/MyFuture" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long fafu"></i></p> where I see my future</NavLink></li>
-                <li><NavLink to ="/Contactandsocialmedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i class="fa-solid fa-arrow-right-long faco"></i></p> contact and social media</NavLink></li>
+                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fapd"></i></p> personal data</NavLink></li>
+                <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long famo"></i></p> professional philosophy and motivation</NavLink></li>
+                <li><NavLink to ="/Career" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faca"></i></p> career - how I met my ...</NavLink></li>
+                <li><NavLink to ="/Experience" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faex"></i></p> experience and professional impact</NavLink></li>
+                <li><NavLink to ="/References" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fafu"></i></p> references</NavLink></li>
+                <li><NavLink to ="/MyFuture" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fafu"></i></p> where I see my future</NavLink></li>
+                <li><NavLink to ="/Contactandsocialmedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faco"></i></p> contact and social media</NavLink></li>
             </ul>
           </nav>
         </div>
@@ -57,6 +59,6 @@ const Home = () => (
         
       </div>
     </div>
-    )
+)
 
     export default Home

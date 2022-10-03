@@ -11,8 +11,9 @@ const ContactAndSocialMedia = () => (
       </div>
       <header className="box3">
         <figure> 
-          <img src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" />
-          <figcaption>Joachim Ritter</figcaption>
+          {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
+            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
+            <figcaption>Joachim Ritter</figcaption>
         </figure>
       </header>
       <div className="box4">
@@ -26,16 +27,16 @@ const ContactAndSocialMedia = () => (
           <h2>Contact or just follow. You decide. Press <ion-icon name="finger-print-outline"></ion-icon></h2>
           <ul>
             <li><a href="mailto:jritter@via-internet.com"><i alt="" class="fa-regular fa-envelope"></i><p>My e-mail for professional issues...</p></a></li>
-            <li><a href="https://github.com/KazhimRycerz/" alt="" target="_blank"><ion-icon name="logo-github"></ion-icon><p>My professional activity in coding...</p></a></li>
-            <li><a href="https://www.NavLinkedin.com/in/joachimr/" alt="" target="_blank"><ion-icon name="logo-Linkedin"></ion-icon><p>My professional network in lighting design...</p></a></li>
-            <li><a href="https://www.xing.com/profile/Joachim_Ritter19/" alt="" target="_blank"><ion-icon name="logo-xing"></ion-icon><p>My xing-account - just starting...</p></a></li>
-            <li><a href="https://www.instagram.com/ritter_joachim/" alt="" target="_blank"><ion-icon name="logo-instagram"></ion-icon><p>Enjoy my pictures...</p></a></li>
-            <li><a href="https://twitter.com/RitterJoachim/" alt="" target="_blank"><ion-icon name="logo-twitter"></ion-icon><p>Some of my opinions...</p></a></li>
-            <li><a href="https://www.facebook.com/joachim.ritter.31/" alt="" target="_blank"><ion-icon name="logo-facebook"></ion-icon><p>My private network...just in case...</p></a></li>
+            <li><a href="https://github.com/KazhimRycerz/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-github"></ion-icon><p>My professional activity in coding...</p></a></li>
+            <li><a href="https://www.Linkedin.com/in/joachimr/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-Linkedin"></ion-icon><p>My professional network in lighting design...</p></a></li>
+            <li><a href="https://www.xing.com/profile/Joachim_Ritter19/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-xing"></ion-icon><p>My xing-account - just starting...</p></a></li>
+            <li><a href="https://www.instagram.com/ritter_joachim/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-instagram"></ion-icon><p>Enjoy my pictures...</p></a></li>
+            <li><a href="https://twitter.com/RitterJoachim/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-twitter"></ion-icon><p>Some of my opinions...</p></a></li>
+            <li><a href="https://www.facebook.com/joachim.ritter.31/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-facebook"></ion-icon><p>My private network...just in case...</p></a></li>
             <li><a href="skype:jritter_43/"><ion-icon name="logo-skype"></ion-icon><p>For deeper collaboration and communication...</p></a></li>
             <li><a href="slack:Joachim Ritter"><ion-icon name="logo-slack"></ion-icon><p>or slacking...</p></a></li>
-            <li><a href=""><ion-icon name="videocam-outline"></ion-icon><p>or zoom...</p></a></li>
-            <li><a href=""><p>or just the traditional way ... </p></a></li>
+            <li><ion-icon name="videocam-outline"></ion-icon><p>or zoom...</p></li>
+            <li><p>or just the traditional way ... </p></li>
           </ul>
         </article>
       </div>
@@ -45,7 +46,8 @@ const ContactAndSocialMedia = () => (
           <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >personal data</NavLink></li>
           <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >philosophy / <br />motivation</NavLink></li>
           <li><NavLink to ="/Career"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >carrer / <br />my way...</NavLink></li>
-          <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >experience and <br />professional impact</NavLink></li>
+          <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >experience and <br />professional <br />impact</NavLink></li>
+          <li><NavLink to ="/References"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >references</NavLink></li>
           <li><NavLink to ="/MyFuture"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >my future</NavLink></li>
           <li className="contactandsocialmedia">contact and <br />social media</li>
         </ul>

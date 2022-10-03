@@ -5,19 +5,39 @@
     animation: paused;
     z-index: 11;
   }
-.box5 .article_ca {
-    /* background: rgba(250, 200, 80, 0.2); */
+.box5 {
+  .article_ca {
+    //background-color: rgba(60, 85, 185, 0.5);  
     h2 {
-      background: linear-gradient(rgba(60, 85, 185, 0.3), rgba(60, 85, 185, 0.05)), linear-gradient(rgba(255, 255, 255, 1.0)75%,rgba(255, 255, 255, 0.5));
-    }
-    p {
-      background: rgba(60, 85, 185, 0.05);
-      padding-bottom: 50px;
-    }
-    >div {
-      background: transparent;
+        background: linear-gradient(rgba(60, 85, 185, 0.3)60%, rgba(60, 85, 185, 0.05)), linear-gradient(rgba(255, 255, 255, 1.0)60%,rgba(255, 255, 255, 0.0));
+      }      
+    div {
+      background-color: rgba(60, 85, 185, 0.05);
       //border: solid;
+      width: 100%;
+      h4 {
+        padding-left: 20px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: $normal;
+      }
+      :first-child {
+        padding-top: 0px;
+      }
+      p {
+        //background-color: rgba(60, 85, 185, 0.5);
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        padding-right: 30px;
+      }
+      p:last-child {
+        padding-bottom: 50px;
+      }
     }
+  }
 }
 .career {
     color:rgb(60, 85, 185);

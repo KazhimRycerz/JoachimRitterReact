@@ -6,6 +6,7 @@ import PersonalData from './components/PersonalData'
 import Motivation from './components/Motivation'
 import Career from './components/Career'
 import Experience from './components/Experience'
+import References from './components/References'
 import MyFuture from './components/MyFuture'
 import ContactAndSocialMedia from './components/ContactAndSocialMedia'
 import Page404 from './components/Page404';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Career" element={<Career />} />
           <Route path="/Experience" element={<Experience />} />
+          <Route path="/References" element={<References />} />
           <Route path="/MyFuture" element={<MyFuture />} />
           <Route path="/ContactAndSocialMedia" element={<ContactAndSocialMedia />} />
         </Routes>
