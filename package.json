@@ -2,7 +2,7 @@
   "name": "JoachimRitterReactVersion",
   "version": "0.1.0",
   "main": "src/index.js",
-  "homepage": "https://github.com/KazhimRycerz/heroku-api#readme",
+  "homepage": "https://kazhimrycerz.github.io/JoachimRitterReact/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -23,10 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
