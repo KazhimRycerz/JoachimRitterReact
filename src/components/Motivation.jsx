@@ -24,13 +24,15 @@ const Motivation = () => (
         </div>
       </div>  
       <div className = "box5">
-        <article className="article_mp">
+        <article className="box5_mp">
             <h2>Why I do what I do</h2>
-            <div>
+            <div id="motivation_JR">
               <p>Enjoying your professional work sounds very unusual or even crazy. But I am not crazy. I enjoy to fill my live with things I can develop and be satisfied width.</p>
               <p>Working from 8 to 17.00 is not what I believe in. When I caught fire for something and am really burning to learn and use my skills. </p>
               <p>Mostly I feeel attracked by project which are new and not existing on the market. Therefore it is necessary to understand humans, the society and business-structures. I believe in the revolution of the digitalisation, although I am also able to see risks and negative developments which I can deal with and continiously adapt my believes and convictions   </p>
-              <p>Therefore I am also proud of my current career and experience as a <ul>
+              <p>Therefore I am also proud of my current career and experience as a 
+              </p>              
+                <ul>
                   <li>journalist</li>
                   <li>translator</li>
                   <li>managing director</li>
@@ -38,7 +40,6 @@ const Motivation = () => (
                   <li>museum manager</li>
                   <li>full stack webdeveloper</li>
                 </ul>
-              </p>              
               <p>All of these were of my interest and I believe that they are linked and led to better results in my professional career. And this is not to end as my age and priavte status is not asking me to stop enjoying my professional path...</p>
             </div>
 
