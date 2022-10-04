@@ -1,7 +1,7 @@
 {
-  "name": "vorlage",
+  "name": "JoachimRitterReactVersion",
   "version": "0.1.0",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "homepage": "https://kazhimrycerz.github.io/JoachimRitterReact/",
   "private": true,
   "dependencies": {
