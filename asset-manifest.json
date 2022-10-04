@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JoachimRitterReact/static/css/main.0169b007.css",
-    "main.js": "/JoachimRitterReact/static/js/main.38105e21.js",
+    "main.js": "/JoachimRitterReact/static/js/main.5f239094.js",
     "static/media/FrederickatheGreat-Regular.otf": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.71d00f9bfe711bfefaa4.otf",
     "static/media/IMG_1839.PNG": "/JoachimRitterReact/static/media/IMG_1839.078d49081729a4e0cdc2.PNG",
     "static/media/FallingSkyOu.otf": "/JoachimRitterReact/static/media/FallingSkyOu.39f81c0efef0b8d94354.otf",
@@ -29,10 +29,10 @@
     "static/media/VIA-Verlag.woff2": "/JoachimRitterReact/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/JoachimRitterReact/index.html",
     "main.0169b007.css.map": "/JoachimRitterReact/static/css/main.0169b007.css.map",
-    "main.38105e21.js.map": "/JoachimRitterReact/static/js/main.38105e21.js.map"
+    "main.5f239094.js.map": "/JoachimRitterReact/static/js/main.5f239094.js.map"
   },
   "entrypoints": [
     "static/css/main.0169b007.css",
-    "static/js/main.38105e21.js"
+    "static/js/main.5f239094.js"
   ]
 }
