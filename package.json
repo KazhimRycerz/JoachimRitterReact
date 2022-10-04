@@ -1,7 +1,8 @@
 {
   "name": "vorlage",
   "version": "0.1.0",
-  "homepage": "./src/index.js",
+  "main": "src/index.js",
+  "homepage": "https://kazhimrycerz.github.io/JoachimRitterReact/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
