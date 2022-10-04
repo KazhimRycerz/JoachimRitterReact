@@ -1,8 +1,8 @@
 {
   "name": "JoachimRitterReactVersion",
   "version": "0.1.0",
-  "main": "./src/index.js",
-  "homepage": "https://kazhimrycerz.github.io/JoachimRitterReact/",
+  "main": "src/index.js",
+  "homepage": "https://github.com/KazhimRycerz/heroku-api#readme",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
