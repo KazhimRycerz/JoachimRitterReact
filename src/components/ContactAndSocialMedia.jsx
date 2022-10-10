@@ -22,8 +22,8 @@ const ContactAndSocialMedia = () => (
           <img className="first" src="./Images/IMG_3679.PNG" alt="" />
         </div>
       </div>  
-      <div className = "box5">
-        <article>
+      <div className = "box5" id="box5csm">
+        <article className="article_ca">
           <h2>Contact or just follow. You decide. Press <ion-icon name="finger-print-outline"></ion-icon></h2>
           <ul>
             <li><a href="mailto:jritter@via-internet.com"><i alt="" class="fa-regular fa-envelope"></i><p>My e-mail for professional issues...</p></a></li>

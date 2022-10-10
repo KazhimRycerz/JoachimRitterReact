@@ -23,7 +23,7 @@ const PersonalData = () => (
           <img className="first" src="./Images/IMG_3561.PNG" alt="" />
         </div>
       </div>  
-      <div className="box5">
+      <div className="box5" id="box5pd">
         <article className="article_pd">
           <h2>Learn about Joachim Ritter as a private person</h2>
             <table>

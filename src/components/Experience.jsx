@@ -22,8 +22,8 @@ const Experience = () => (
           <img className="fifth" src="Images/IMG_3559.PNG" alt="" />
         </div>
       </div>  
-      <div className="box5" >
-           <article className="box5_ei">
+      <div className="box5" id= "box5ei" >
+           <article className="article_ei">
              <h2>Professional fingerprint in detail</h2>
               <div id="experiences_JR">
                   <div>

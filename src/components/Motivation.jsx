@@ -7,7 +7,7 @@ const Motivation = () => (
     <div className="content">
       <div className="box1"></div>
       <div className="box2">
-        <h1 >Professional philosophy / Motivation</h1>
+        <h1 >Professional philosophy Motivation</h1>
         {/* <p>Why I do what I do</p> */}
       </div>
       <header className="box3">
@@ -23,8 +23,8 @@ const Motivation = () => (
           <img className="second" src="Images/IMG_3556.PNG" alt="" />
         </div>
       </div>  
-      <div className = "box5">
-        <article className="box5_mp">
+      <div className = "box5" id="box5mp">
+        <article className="article_mp">
             <h2>Why I do what I do</h2>
             <div id="motivation_JR">
               <p>Enjoying your professional work sounds very unusual or even crazy. But I am not crazy. I enjoy to fill my live with things I can develop and be satisfied width.</p>

@@ -5,40 +5,44 @@
     animation: paused;
     z-index: 11;
   }
-
-  .box5 {
-    .box5_mp {
-      background-color: rgba(250, 200, 80, 0.2);
+#box5mp{
+  background-color: rgba(250, 200, 80, 0.2);
+  box-shadow: 2px 2px 15px;
+  width: 90%;
+  height: 95%;
+  .article_mp {
       h2 {
-        background: linear-gradient(rgba(250, 200, 80, 0.5)60%, rgba(250, 200, 80, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)60%,rgba(255, 255, 255, 0.0));
+        background: linear-gradient(rgba(250, 200, 80, 0.6)60%, rgba(250, 200, 80, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)60%,rgba(255, 255, 255, 0.0));
+        min-height: 50px;
+        margin-bottom: 0px;
       }
-      div {
-        background: rgba(250, 200, 80, 0.2);
-        position: relative;
-        top: -120px;
-        //background-color: none;
-        width: 100%;
-        padding-top: 110px; 
-        
+      #motivation_JR {
+        width: 90%;
         p {
-          width: 100%;
+          width: 95%;
           padding-right: 20px;
           padding-bottom: 10px;  
-          ul {
-           margin: 0;
-           padding: 0;
-
-           li {
+        }
+        ul {
+          position: relative;
+          //top: -100px;
+        margin: 0;
+        padding-bottom:0px;
+        padding-left: 20px;
+        background-color: transparent;
+          li {
             list-style-type:circle;
-           }
+            background: none;
           }
         }
         p:last-child {
-          padding-bottom: 300px;
+          position: relative;
+          top: 20px;
+          padding-bottom: 00px;
         }
       }
+    }
   }
-}
 
   .motivation {
     color: rgb(250, 200, 80);   

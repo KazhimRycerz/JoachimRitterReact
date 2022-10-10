@@ -5,32 +5,31 @@
     animation: paused; //running
     z-index: 11;
   }
-  .box5  {
+  #box5mf  {
+    box-shadow: 2px 2px 15px;
+    background-color: rgba(0, 100, 0, 0.1); 
+    width: 90%;
+    height: 95%;
     .article_mf {
-      background-color: rgba(0, 100, 0, 0.0); 
-    
-    h2 {
-      background: linear-gradient(rgba(0, 100, 0, 0.3)50%, rgba(0, 100, 0, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)50%,rgba(255, 255, 255, 0.0));
-      
-    }
-    div {
-      background-color: rgba(0, 100, 0, 0.1);
-      position: relative;
-      top: -100px;
-      //background-color: none;
-      width: 100%;
-      p:first-child {
-        padding-top: 110px; 
+      h2 {
+        background: linear-gradient(rgba(0, 100, 0, 0.4)55%, rgba(0, 100, 0, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)55%,rgba(255, 255, 255, 0.0));
+        min-height: 50px;
+        margin-bottom: 0px;
       }
-      p {
-        width: 100%;
-        padding-right: 20px;
-        padding-bottom: 10px;
+      #future_JR {
+        width: 90%;
+        p:first-child {
+          padding-top: 10px; 
+        }
+        p {
+          width: 100%;
+          padding-right: 20px;
+          padding-bottom: 10px;
+        }
+        p:last-child {
+          padding-bottom: 50px;
+        }
       }
-      p:last-child {
-        padding-bottom: 500px;
-      }
-    }
     }  
   }
 

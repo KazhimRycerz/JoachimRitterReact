@@ -23,10 +23,10 @@ const Career = () => (
           <img className="first" src="./Images/IMG_3557.PNG" alt="" />
         </div>
       </div>  
-      <div className = "box5">    
+      <div className = "box5" id="box5ca">    
         <article className = "article_ca">
           <h2>The way I went</h2>
-          <div>
+          <div id="career_JR">
             <h4>Further education at the DCI - Digital Career Institute, Berlin/DE</h4>
             <p> 09/2021 - 11/2021 </p>
             <p> Basic course on webdesign, AWS, Social Media Marketing</p>

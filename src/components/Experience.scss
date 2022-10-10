@@ -5,47 +5,39 @@
     animation: paused;
     z-index: 11;
 }
-
-.experience {
-      color:rgb(195, 70, 30);
-}
-
-.box5 {  
-  .box5_ei {
-    background-color: rgba(195, 70, 30, 0.1);
-    padding-top: 0;
-    margin-top: 0;
+#box5ei {  
+  background: rgba(195, 70, 30, 0.2);
+  box-shadow: 2px 2px 15px;
+  width: 90%;
+  height: 95%;
+  .article_ei {
+    //background-color: rgba(195, 70, 30, 0.1);
+   
     h2 {
-      //font-family: "Xero";
       background: linear-gradient(rgba(195, 70, 30, 0.5)50%, rgba(195, 70, 30, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)50%,rgba(255, 255, 255, 0.1)80%, rgba(255, 255, 255, 0.0)100%);
-      position:sticky;
-      top: 0;
-      min-height: 100px;
+      min-height: 80px;
       margin-bottom: 0px;
     }
     #experiences_JR {
-      position: relative;
-      top: -120px;
-      background: rgba(195, 70, 30, 0.2);
-      margin: 0;
-      padding-top: 100px;
-      padding-bottom: 200px;
-      //border: solid;
-      padding-left:20px;
-      width: 100%;
-      color: black;
+      width: 90%;
+      padding-bottom: 20px;
       h4 {
         padding: 0 0 0 20px;
         font-weight:bolder;
         text-align: left;
       }
+      padding-left:10px;
       li {
         font-size: $normal;
         background-color: none;
         width: 95%;
-        list-style-type:circle;
+        list-style-type:disc;
         list-style-position: outside;
       }
     }
   }
+}
+
+.experience {
+      color:rgb(195, 70, 30);
 }

@@ -31,7 +31,7 @@ const Home = () => (
             <img id="ninth" src="./Images/IMG_3680.PNG" alt="" />
           </div>
         </div>
-        <div className="box5">
+        <div className="box5" id="box5home">
           <nav>
             <ul id="home_contens">
                 <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fapd"></i></p> personal data</NavLink></li>
@@ -44,7 +44,18 @@ const Home = () => (
             </ul>
           </nav>
         </div>
-        <div className="box6"></div>
+        <nav className="box6">
+        <ul>
+          <li>home /<br /> fingerprint</li>
+          <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >personal data</NavLink></li>
+          <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >philosophy / <br />motivation</NavLink></li>
+          <li><NavLink to ="/Career"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >carrer / <br />my way...</NavLink></li>
+          <li><NavLink to ="/Experience"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >experience and <br />professional <br />impact</NavLink></li>
+          <li><NavLink to ="/References"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >references</NavLink></li>
+          <li><NavLink to ="/MyFuture"  onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >my future</NavLink></li>
+          <li><NavLink to ="/ContactAndSocialMedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" >contact and <br />social media</NavLink></li>
+        </ul>
+      </nav>
         <div className="box7">
           <figure><img id="buchMitLicht" src="./Images/buchMitLicht.png" alt="" /></figure>
           <figure><img id="nn2" src="./Images/buchMitLicht.png" alt="" /></figure>
