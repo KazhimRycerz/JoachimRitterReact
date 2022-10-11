@@ -1,6 +1,9 @@
 @import "./typo/typo.scss";
 @import "./variables/variables.scss";
 
+.motto {
+    font-family: $primary-font-medium;
+}
 .bg {
     /* margin: 0 auto ;
     border: solid;

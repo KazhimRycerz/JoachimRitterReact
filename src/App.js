@@ -1,6 +1,6 @@
 import React from "react";
 import {  
-  HashRouter as Router, Routes, Route} from 'react-router-dom'
+  BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/Home'
 import PersonalData from './components/PersonalData'
 import Motivation from './components/Motivation'
@@ -18,7 +18,6 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="*" element={<Page404 />} />
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/PersonalData" element={<PersonalData />} />
@@ -28,6 +27,7 @@ function App() {
           <Route path="/References" element={<References />} />
           <Route path="/MyFuture" element={<MyFuture />} />
           <Route path="/ContactAndSocialMedia" element={<ContactAndSocialMedia />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>
 

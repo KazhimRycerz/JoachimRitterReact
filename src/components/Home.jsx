@@ -8,7 +8,7 @@ const Home = () => (
         <div className="box1"></div>
         <div className="box2">
           <h1 >Professional fingerprint</h1>
-          <p>Living to work - instead of working to live</p>
+          <p className="motto">Living to work - instead of working to live</p>
         </div>
         <header className="box3">
           <figure> 
