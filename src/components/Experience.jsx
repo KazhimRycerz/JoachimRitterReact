@@ -28,13 +28,14 @@ const Experience = () => (
               <div id="experiences_JR">
                   <div>
                     <h4> Working experience</h4>
-                    <li> 40 years of journalism and publishing trade magazines and books</li>
-                    <li> Graphic concepts</li>
-                    <li> Photography</li>
-                    <li> Translating: German -> English / English -> German</li>
-                    <li> Strategic work and redevelopment for private museums</li>
-                    <li> Professional management of more than 100 educational and social events, including budgets from 5,000 to 2.1 Million €</li>
-                    <li> Giving papers worldwide on architrecture and lighting design</li>
+                      <li> 40 years of journalism and publishing trade magazines and books</li>
+                      <li> Graphic concepts</li>
+                      <li> Photography</li>
+                      <li> Translating: German -> English / English -> German</li>
+                      <li> Strategic work and redevelopment for private museums</li>
+                      <li> Professional management of more than 100 educational and social events, including budgets from 5,000 to 2.1 Million €</li>
+                      <li> Giving papers worldwide on architrecture and lighting design</li>
+                    
                   </div>
 
                   <div>

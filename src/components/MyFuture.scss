@@ -6,7 +6,7 @@
     z-index: 11;
   }
   #box5mf  {
-    box-shadow: 2px 2px 15px;
+    //box-shadow: 2px 2px 15px;
     background-color: rgba(0, 100, 0, 0.05); 
     width: 90%;
     .article_mf {
@@ -14,9 +14,11 @@
         background: linear-gradient(rgba(0, 100, 0, 0.4)55%, rgba(0, 100, 0, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)55%,rgba(255, 255, 255, 0.0));
         min-height: 50px;
         margin-bottom: 0px;
+        padding-left: 60px;
       }
       #future_JR {
-        width: 90%;
+        width: 80%;
+        padding-left:40px;
         p:first-child {
           padding-top: 10px; 
         }

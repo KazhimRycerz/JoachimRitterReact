@@ -1,40 +1,46 @@
 @import "../App.scss";
 
 .seventh {
-    opacity: 1;
-    animation: paused;
-    z-index: 11;
+  opacity: 1;
+  animation: paused;
+  z-index: 11;
 }
-#box5re{  
-  background-color: rgba(100, 5, 80, 0.2);
-  box-shadow: 2px 2px 15px;
+#box5re {
+  background-color: rgba(100, 5, 80, 0.15);
+  //box-shadow: 2px 2px 15px;
   width: 90%;
   .article_re {
     h2 {
-      background: linear-gradient(rgba(100, 5, 80, 0.4)60%, rgba(100, 5, 80, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)60%,rgba(255, 255, 255, 0.0));
+      background: linear-gradient(
+          rgba(100, 5, 80, 0.4) 60%,
+          rgba(100, 5, 80, 0)
+        ),
+        linear-gradient(rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0));
       min-height: 60px;
       margin-bottom: 0px;
+      padding-left: 50px
     }
     #references_JR {
-      width: 90%;}
+      width: 90%;
+      padding-left: 50px;
+    }
     h3 {
-      padding-left: 20px;
+      padding-left: 0px;
     }
     .apparisal {
       //background: rgba(195, 70, 30, 0.1);
-      padding-left:10px;
+      padding-left: 0px;
       margin-bottom: 20px;
       width: 100%;
       h4 {
-        margin-top: 0px;
-        padding: 0px 0 0 10px;
-        padding-bottom: 0px;
-        font-weight:bolder;
+        margin: 0px 0 0 0;
+        padding: 0px 0px 0px 0px;
+        font-weight: bolder;
         text-align: left;
       }
       q {
         padding: 0px;
-        margin: 0 auto;
+        margin: 0 20px;
         width: 80%;
         font-size: $normal;
         display: block;
@@ -43,12 +49,12 @@
       p {
         font-size: $normal;
         background-color: transparent;
-        width: 80%;
+        width: 90%;
       }
     }
   }
 }
 
 .reference {
-      color:rgb(100, 5, 80);
+  color: rgb(100, 5, 80);
 }
