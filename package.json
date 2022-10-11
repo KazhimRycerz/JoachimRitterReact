@@ -1,8 +1,9 @@
 {
-  "name": "JoachimRitterReactVersion",
+  "name": "joachimritterreactversion",
+  "description": "JoachimRitterInReact",
   "version": "0.1.0",
   "main": "src/index.js",
-  "homepage": "https://kazhimrycerz.github.io/JoachimRitterReact/",
+  
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",

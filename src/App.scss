@@ -205,9 +205,10 @@
                 position: relative;
                 border-radius: 10px;
                 width: 100%;
-                height: 100%;
+                height: 95%;
                 //margin-top: 20px;
-                box-shadow:$boxshadow;
+                //box-shadow:$boxshadow;
+                font-family: $primary-font-medium;
                 overflow-y: auto;
                 overflow-x: hidden;
                 ::-webkit-scrollbar {

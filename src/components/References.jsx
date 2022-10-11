@@ -29,7 +29,7 @@ const References = () => (
               <h3>Some former clients</h3>
               <div className="apparisal">
                 <h4>Copywriting and translations</h4>
-                <p>Ansorg, Erco, Zumtobel, Bertelsmann, Flachgals AG, Pilkington, Selux, Thorn, Buschfeld Licht </p>
+                <p>Ansorg, Bertelsmann AG, Bertelsmann Fachzeitschriften, Erco, Flachgals, Pilkington, Selux, Thorn, Buschfeld Licht, Miele, Zumtobel uvam. </p>
               </div>
             
               <h3>Some appraisals English lessons @ Lingoda <br /> Evaluations after the English lessons C2-Level</h3>

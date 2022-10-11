@@ -10,8 +10,7 @@
   box-shadow: 2px 2px 15px;
   width: 90%;
   .article_ei {
-    //background-color: rgba(195, 70, 30, 0.1);
-   
+    //background-color: rgba(195, 70, 30, 0.1);   
     h2 {
       background: linear-gradient(rgba(195, 70, 30, 0.5)50%, rgba(195, 70, 30, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)50%,rgba(255, 255, 255, 0.1)80%, rgba(255, 255, 255, 0.0)100%);
       min-height: 80px;
@@ -20,12 +19,13 @@
     #experiences_JR {
       width: 90%;
       padding-bottom: 20px;
+      margin-top: 0px;
       h4 {
-        padding: 0 0 0 20px;
+        padding: 0 0 0 0px;
         font-weight:bolder;
         text-align: left;
       }
-      padding-left:10px;
+      padding-left:30px;
       li {
         font-size: $normal;
         background-color: none;
