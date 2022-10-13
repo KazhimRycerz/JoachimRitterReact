@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import './References.scss'
 
 const References = () => (
@@ -26,12 +26,18 @@ const References = () => (
           <article className="article_re">
             <h2>References, certificats, honors</h2>
             <div id="references_JR">
+              <h3>My personality test</h3>
+              <div className="apparisal">
+                <h4>Certified by 16Personalities</h4>
+                <a href="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</a>
+              </div>
               <h3>Some former clients</h3>
               <div className="apparisal">
                 <h4>Copywriting and translations</h4>
                 <p>Ansorg, Bertelsmann AG, Bertelsmann Fachzeitschriften, Erco, Flachgals, Pilkington, Selux, Thorn, Buschfeld Licht, Miele, Zumtobel uvam. </p>
               </div>
             
+
               <h3>Some appraisals English lessons @ Lingoda <br /> Evaluations after the English lessons C2-Level</h3>
                 <div className="apparisal">
                   <h4>Lingoda - Judith 9.September 2022</h4>

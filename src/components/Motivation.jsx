@@ -27,20 +27,25 @@ const Motivation = () => (
         <article className="article_mp">
             <h2>Why I do what I do</h2>
             <div id="motivation_JR">
-              <p>Enjoying your professional work sounds very unusual or even crazy. But I am not crazy. I enjoy to fill my live with things I can develop and be satisfied width.</p>
-              <p>Working from 8 to 17.00 is not what I believe in. When I caught fire for something and am really burning to learn and use my skills. </p>
+              <p>Enjoying your professional work sounds very unusual or even crazy. But I am not crazy. I enjoy to fill my live with things I can develop and be satisfied with.</p>
+              <p>Working from 8 to 17.00 is not what I believe in. When I caught fire for something and I am really burning to learn and use my skills. </p>
               <p>Mostly I feeel attracked by project which are new and not existing on the market. Therefore it is necessary to understand humans, the society and business-structures. I believe in the revolution of the digitalisation, although I am also able to see risks and negative developments which I can deal with and continiously adapt my believes and convictions   </p>
               <p>Therefore I am also proud of my current career and experience as a 
               </p>              
-                <ul>
+                <p>
                   <li>journalist</li>
                   <li>translator</li>
                   <li>managing director</li>
                   <li>event manager</li>
                   <li>museum manager</li>
                   <li>full stack webdeveloper</li>
-                </ul>
+                </p>
               <p>All of these were of my interest and I believe that they are linked and led to better results in my professional career. And this is not to end as my age and priavte status is not asking me to stop enjoying my professional path...</p>
+              
+              <div>
+                <h3>Certified by 16Personalities:</h3>
+                  <a href="https://www.16personalities.com/profiles/ffa70d7bacbb3">My personality test, last made on 13. October 2022</a><br /><br />
+              </div>
             </div>
 
         </article>

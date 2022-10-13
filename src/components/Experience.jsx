@@ -52,8 +52,13 @@ const Experience = () => (
                     <li> MS Project --> common understanding</li>
                     <li> QuarkXPress, Adobe Indesign, Photoshop and similar Apps --> experienced</li>
                     <li> Lexware --> experienced</li> 
-                    <li> webdesign: GitHub, HTML5, CSS, Sass, Bootstrap, Java Script, React, Node, MongoDB, Mongoose --> ready for practical experience </li> 
-                    <li> Wix</li>                    
+                    <h4>Webdevelopment</h4>
+                    <li> webdesign: HTML5, CSS, Sass, Java Script, React, Node JS, MongoDB, Mongoose --> awaiting practical cases </li> 
+                    <li> loved add ons / frameworks / libraries: Bootstrap, GoJS, Font Awesome, Ionic --> awaiting practical cases </li> 
+                    <li> helpers: Canva Colors, CSS gradient, Clippy,  --> ready for practical cases </li> 
+                    <li> professionality: GitHub, Heroku, Slack, Brello --> ready for practical cases </li> 
+                    <li> Website Builders: Wix, WordPress</li> 
+                    <li> on my list to explore next: React Native, animate.css, TypeIt, Animated Transition Effects</li>
                   </div>
 
                   <div>
