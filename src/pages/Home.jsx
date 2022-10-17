@@ -1,6 +1,18 @@
 import { NavLink } from 'react-router-dom'
 import JoachimRitter from '../components/JoachimRitter.js'
 import './Home.scss'
+import Lohhof from '../Images/Lohhof.jpg'
+import BuchmitLicht from '../Images/buchMitLicht.png'
+import Basis from '../Images/1200px-Fingerprint_picture.png'
+import First from '../Images/IMG_3561.PNG'
+import Second from '../Images/IMG_3556.PNG'
+import Third from '../Images/IMG_3557.PNG'
+import Fourth from '../Images/IMG_3558.PNG'
+import Fifth from '../Images/IMG_3559.PNG'
+import Sixth from '../Images/IMG_3560.PNG'
+import Seventh from '../Images/IMG_3554.PNG'
+import Eigth from '../Images/IMG_3679.PNG'
+import Ninth from '../Images/IMG_3680.PNG'
 
 const Home = () => (
     <div className="bg">
@@ -16,16 +28,16 @@ const Home = () => (
         </header>
         <div className="box4">
           <div>
-            <img id="basis" src="./Images/1200px-Fingerprint_picture.png" alt="" />
-            <img id="first" src="./Images/IMG_3561.PNG" alt="" />
-            <img id="second" src="./Images/IMG_3556.PNG" alt="" />
-            <img id="third" src="./Images/IMG_3557.PNG" alt="" />
-            <img id="fourth" src="./Images/IMG_3558.PNG" alt="" />
-            <img id="fifth" src="./Images/IMG_3559.PNG" alt="" />
-            <img id="sixth" src="./Images/IMG_3560.PNG" alt="" />
-            <img id="seventh" src="./Images/IMG_3554.PNG" alt="" />
-            <img id="eigth" src="./Images/IMG_3679.PNG" alt="" />
-            <img id="ninth" src="./Images/IMG_3680.PNG" alt="" />
+            <img id="basis" src={Basis} alt="" />
+            <img id="first" src={First} alt="" />
+            <img id="second" src={Second} alt="" />
+            <img id="third" src={Third} alt="" />
+            <img id="fourth" src={Fourth} alt="" />
+            <img id="fifth" src={Fifth} alt="" />
+            <img id="sixth" src={Sixth} alt="" />
+            <img id="seventh" src={Seventh} alt="" />
+            <img id="eigth" src={Eigth} alt="" />
+            <img id="ninth" src={Ninth} alt="" />
           </div>
         </div>
         <div className="box5" id="box5home">
@@ -54,12 +66,12 @@ const Home = () => (
         </ul>
       </nav>
         <div className="box7">
-          <figure><img id="buchMitLicht" src="./Images/buchMitLicht.png" alt="" /></figure>
-          <figure><img id="nn2" src="./Images/buchMitLicht.png" alt="" /></figure>
-          <figure><img id="nn3" src="./Images/Lohhof.jpg" alt="" /></figure>
-          <figure><img id="nn4" src="./Images/buchMitLicht.png" alt="" /></figure>
-          <figure><img id="nn5" src="./Images/buchMitLicht.png" alt="" /></figure>
-          <figure><img id="nn6" src="./Images/buchMitLicht.png" alt="" /></figure>
+          <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
+          <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
+          <figure><img id="nn3" src={Lohhof} alt="" /></figure>
+          <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
+          {/* <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure> */}
+          <figure><img id="nn6" src={BuchmitLicht} alt="" /></figure>
         </div>
         <div className="box8"></div>
         <div className="box9"></div>

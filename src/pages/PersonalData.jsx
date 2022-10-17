@@ -1,6 +1,9 @@
 import { NavLink } from 'react-router-dom'
 import JoachimRitter from '../components/JoachimRitter.js'
 import './PersonalData.scss'
+import BuchmitLicht from '../Images/buchMitLicht.png'
+import Basis from '../Images/1200px-Fingerprint_picture.png'
+import First from '../Images/IMG_3561.PNG'
 
 const PersonalData = () => (
   <div className="bg">
@@ -16,8 +19,8 @@ const PersonalData = () => (
       </header>
       <div className="box4">
         <div>
-          <img id="basis" src="./Images/1200px-Fingerprint_picture.png" alt="" />
-          <img className="first" src="./Images/IMG_3561.PNG" alt="" />
+          <img id="basis" src={Basis} alt="" />
+          <img className="first" src={First} alt="" />
         </div>
       </div>  
       <div className="box5" id="box5pd">
@@ -68,12 +71,12 @@ const PersonalData = () => (
           </ul>
       </nav>
       <div className="box7">
-        <figure><img id="buchMitLicht" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn2" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn3" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn4" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn5" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn6" src="./Images/buchMitLicht.png" alt="" /></figure>
+        <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn6" src={BuchmitLicht} alt="" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>
