@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/JoachimRitterReact/static/css/main.dc6f9d1a.css",
-    "main.js": "/JoachimRitterReact/static/js/main.e99f7de1.js",
+    "main.js": "/JoachimRitterReact/static/js/main.57ee7ef5.js",
     "static/media/Lohhof.jpg": "/JoachimRitterReact/static/media/Lohhof.e8e288019d65766c2fc7.jpg",
     "static/media/PLD_80_Titel_D.jpg": "/JoachimRitterReact/static/media/PLD_80_Titel_D.cf112f6c26b56d64b29c.jpg",
     "static/media/FrederickatheGreat-Regular.otf": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.71d00f9bfe711bfefaa4.otf",
     "static/media/IMG_1839.PNG": "/JoachimRitterReact/static/media/IMG_1839.078d49081729a4e0cdc2.PNG",
+    "static/media/LKH_GT.jpg": "/JoachimRitterReact/static/media/LKH_GT.2a209afdfcb2d324e923.jpg",
     "static/media/buchMitLicht.png": "/JoachimRitterReact/static/media/buchMitLicht.6a4abfc3e79de4853d78.png",
     "static/media/tree_in_red.jpg": "/JoachimRitterReact/static/media/tree_in_red.2ec3f993fffd9e0c00b8.jpg",
+    "static/media/homepagePLDM.jpg": "/JoachimRitterReact/static/media/homepagePLDM.e184dd303140a0d6c5ab.jpg",
     "static/media/Zertifikat_DCI_Joachim Ritter.jpg": "/JoachimRitterReact/static/media/Zertifikat_DCI_Joachim Ritter.7627ce0d63a0a477cdd0.jpg",
     "static/media/FallingSkyOu.otf": "/JoachimRitterReact/static/media/FallingSkyOu.39f81c0efef0b8d94354.otf",
     "static/media/Joachim_privat.JPG": "/JoachimRitterReact/static/media/Joachim_privat.5b0d7556265d87d0cd90.JPG",
@@ -45,10 +47,10 @@
     "static/media/VIA-Verlag.woff2": "/JoachimRitterReact/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/JoachimRitterReact/index.html",
     "main.dc6f9d1a.css.map": "/JoachimRitterReact/static/css/main.dc6f9d1a.css.map",
-    "main.e99f7de1.js.map": "/JoachimRitterReact/static/js/main.e99f7de1.js.map"
+    "main.57ee7ef5.js.map": "/JoachimRitterReact/static/js/main.57ee7ef5.js.map"
   },
   "entrypoints": [
     "static/css/main.dc6f9d1a.css",
-    "static/js/main.e99f7de1.js"
+    "static/js/main.57ee7ef5.js"
   ]
 }
