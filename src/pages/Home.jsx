@@ -14,6 +14,8 @@ import Seventh from '../Images/IMG_3554.PNG'
 import Eigth from '../Images/IMG_3679.PNG'
 import Ninth from '../Images/IMG_3680.PNG'
 import titelPLD88 from '../Images/PLD_80_Titel_D.jpg'
+import LKHGT from '../Images/LKH_GT.jpg'
+import HomePLD from '../Images/homepagePLDM.jpg'
 
 const Home = () => (
     <div className="bg">
@@ -70,9 +72,9 @@ const Home = () => (
           <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
           <figure><img id="titelPLD88" src={titelPLD88} alt="" /></figure>
           <figure><img id="nn3" src={Lohhof} alt="" /></figure>
-          <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
+          <figure><img id="nn4" src={HomePLD} alt="" /></figure>
           {/* <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure> */}
-          <figure><img id="nn6" src={BuchmitLicht} alt="" /></figure>
+          <figure><img id="LKHGT" src={LKHGT} alt="" /></figure>
         </div>
         <div className="box8"></div>
         <div className="box9"></div>
