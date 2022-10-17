@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/JoachimRitterReact/static/css/main.4565be89.css",
-    "main.js": "/JoachimRitterReact/static/js/main.83affeb9.js",
+    "main.css": "/JoachimRitterReact/static/css/main.dc6f9d1a.css",
+    "main.js": "/JoachimRitterReact/static/js/main.e99f7de1.js",
     "static/media/Lohhof.jpg": "/JoachimRitterReact/static/media/Lohhof.e8e288019d65766c2fc7.jpg",
+    "static/media/PLD_80_Titel_D.jpg": "/JoachimRitterReact/static/media/PLD_80_Titel_D.cf112f6c26b56d64b29c.jpg",
     "static/media/FrederickatheGreat-Regular.otf": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.71d00f9bfe711bfefaa4.otf",
     "static/media/IMG_1839.PNG": "/JoachimRitterReact/static/media/IMG_1839.078d49081729a4e0cdc2.PNG",
     "static/media/buchMitLicht.png": "/JoachimRitterReact/static/media/buchMitLicht.6a4abfc3e79de4853d78.png",
+    "static/media/tree_in_red.jpg": "/JoachimRitterReact/static/media/tree_in_red.2ec3f993fffd9e0c00b8.jpg",
+    "static/media/Zertifikat_DCI_Joachim Ritter.jpg": "/JoachimRitterReact/static/media/Zertifikat_DCI_Joachim Ritter.7627ce0d63a0a477cdd0.jpg",
     "static/media/FallingSkyOu.otf": "/JoachimRitterReact/static/media/FallingSkyOu.39f81c0efef0b8d94354.otf",
     "static/media/Joachim_privat.JPG": "/JoachimRitterReact/static/media/Joachim_privat.5b0d7556265d87d0cd90.JPG",
     "static/media/FrederickatheGreat-Regular.woff2": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.d6d0a6fc609ee78b7c81.woff2",
@@ -29,6 +32,7 @@
     "static/media/IMG_3557.PNG": "/JoachimRitterReact/static/media/IMG_3557.fa09f8d52a97df96c427.PNG",
     "static/media/IMG_3558.PNG": "/JoachimRitterReact/static/media/IMG_3558.54d8dbf63ba36e3bbc30.PNG",
     "static/media/IMG_3561.PNG": "/JoachimRitterReact/static/media/IMG_3561.4ef3c48c8f482df658ee.PNG",
+    "static/media/guide.jpg": "/JoachimRitterReact/static/media/guide.e62aba01de53036be7bb.jpg",
     "static/media/xero4.otf": "/JoachimRitterReact/static/media/xero4.435d1209e6febbaa5101.otf",
     "static/media/TWOFOLD_uncomplete_DeSigN.woff2": "/JoachimRitterReact/static/media/TWOFOLD_uncomplete_DeSigN.f6ce9542b244135cf442.woff2",
     "static/media/Joachim_serious.jpg": "/JoachimRitterReact/static/media/Joachim_serious.be8259fd113ab1549ac9.jpg",
@@ -40,11 +44,11 @@
     "static/media/VIA-Verlag.otf": "/JoachimRitterReact/static/media/VIA-Verlag.f9b0807e13383d5cb88c.otf",
     "static/media/VIA-Verlag.woff2": "/JoachimRitterReact/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/JoachimRitterReact/index.html",
-    "main.4565be89.css.map": "/JoachimRitterReact/static/css/main.4565be89.css.map",
-    "main.83affeb9.js.map": "/JoachimRitterReact/static/js/main.83affeb9.js.map"
+    "main.dc6f9d1a.css.map": "/JoachimRitterReact/static/css/main.dc6f9d1a.css.map",
+    "main.e99f7de1.js.map": "/JoachimRitterReact/static/js/main.e99f7de1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4565be89.css",
-    "static/js/main.83affeb9.js"
+    "static/css/main.dc6f9d1a.css",
+    "static/js/main.e99f7de1.js"
   ]
 }
