@@ -1,4 +1,5 @@
 import { NavLink, Link } from 'react-router-dom'
+import JoachimRitter from '../components/JoachimRitter.js'
 import './References.scss'
 
 const References = () => (
@@ -10,11 +11,7 @@ const References = () => (
         <h1 >References</h1>
       </div>
       <header className="box3">
-        <figure> 
-          {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
-            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
-            <figcaption>Joachim Ritter</figcaption>
-        </figure>
+      <JoachimRitter />
       </header>
       <div className="box4">
         <div>
@@ -24,12 +21,19 @@ const References = () => (
       </div>  
       <div className="box5" id="box5re">
           <article className="article_re">
-            <h2>References, certificats, honors</h2>
+            <h2>References, certificats, honors, competitions</h2>
             <div id="references_JR">
               <h3>My personality test</h3>
               <div className="apparisal">
                 <h4>Certified by 16Personalities</h4>
                 <a href="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</a>
+              </div>
+              <h3>Fellowship</h3>
+              <div className="apparisal">
+                <h4>Professional Lighting Designers' Asscoiation</h4>
+                <p>Honory Fellow Membership since 2007</p>
+                <h4>Meber of the DJV - Deutscher Jpurnalistenverband</h4>
+                <p>Silver medal for 25 years of membership</p>
               </div>
               <h3>Some former clients</h3>
               <div className="apparisal">

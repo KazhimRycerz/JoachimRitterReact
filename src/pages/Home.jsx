@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import JoachimRitter from '../components/JoachimRitter.js'
 import './Home.scss'
 
 const Home = () => (
@@ -8,14 +9,10 @@ const Home = () => (
         <div className="box1"></div>
         <div className="box2">
           <h1 >Professional fingerprint</h1>
-          <p className="motto">Living to work - instead of working to live</p>
+          <p id="motto">Living to work - instead of working to live</p>
         </div>
         <header className="box3">
-          <figure> 
-            {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
-            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
-            <figcaption>Joachim Ritter</figcaption>
-          </figure>
+         <JoachimRitter />
         </header>
         <div className="box4">
           <div>
@@ -34,13 +31,13 @@ const Home = () => (
         <div className="box5" id="box5home">
           <nav>
             <ul id="home_contens">
-                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fapd"></i></p> personal data</NavLink></li>
-                <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long famo"></i></p> professional philosophy and motivation</NavLink></li>
-                <li><NavLink to ="/Career" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faca"></i></p> career - how I met my ...</NavLink></li>
-                <li><NavLink to ="/Experience" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faex"></i></p> experience and professional impact</NavLink></li>
-                <li><NavLink to ="/References" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fafu"></i></p> references</NavLink></li>
-                <li><NavLink to ="/MyFuture" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long fafu"></i></p> where I see my future</NavLink></li>
-                <li><NavLink to ="/Contactandsocialmedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><i className="fa-solid fa-arrow-right-long faco"></i></p> contact and social media</NavLink></li>
+                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> personal data</NavLink></li>
+                <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> professional philosophy and motivation</NavLink></li>
+                <li><NavLink to ="/Career" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> career - how I met my ...</NavLink></li>
+                <li><NavLink to ="/Experience" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> experience and professional impact</NavLink></li>
+                <li><NavLink to ="/References" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> references</NavLink></li>
+                <li><NavLink to ="/MyFuture" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> where I see my future</NavLink></li>
+                <li><NavLink to ="/Contactandsocialmedia" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> contact and social media</NavLink></li>
             </ul>
           </nav>
         </div>
@@ -59,7 +56,7 @@ const Home = () => (
         <div className="box7">
           <figure><img id="buchMitLicht" src="./Images/buchMitLicht.png" alt="" /></figure>
           <figure><img id="nn2" src="./Images/buchMitLicht.png" alt="" /></figure>
-          <figure><img id="nn3" src="./Images/buchMitLicht.png" alt="" /></figure>
+          <figure><img id="nn3" src="./Images/Lohhof.jpg" alt="" /></figure>
           <figure><img id="nn4" src="./Images/buchMitLicht.png" alt="" /></figure>
           <figure><img id="nn5" src="./Images/buchMitLicht.png" alt="" /></figure>
           <figure><img id="nn6" src="./Images/buchMitLicht.png" alt="" /></figure>

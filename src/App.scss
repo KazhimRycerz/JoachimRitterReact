@@ -5,17 +5,6 @@
     font-family: $primary-font-medium;
 }
 .bg {
-    /* margin: 0 auto ;
-    border: solid;
-    width: 100%;
-    max-width: 1500px;
-    height: 100%;
-    max-height:1010;
-    padding-bottom: 0; */
-    /* background-image:  url(./Images/IMG_1839.PNG);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: cover; */
     margin: 0 auto;
     .bgimage {
         display: none;
@@ -34,16 +23,12 @@
         background-size:cover;
         position:relative;
         margin: 0 auto;
-        /* left: center;
-        top: center; */
         display: grid;
         grid-auto-rows: min-content;
         grid-template-columns: 30% 57% 11.8%;
         grid-template-rows: 25% 45% 21% 4%;
         grid-gap:0px;
         border-collapse: collapse;
-        //margin: 15px 30px 35px 30px;
-        //height: 95vh;
         height: 820px;
         width: 1200px;
         font-family: $primary-font;
@@ -198,8 +183,7 @@
             grid-row: 2/3;
             //border: solid;
             border-radius: 10px;
-            //background: rgba(255, 255, 255, 0.3);
-            box-shadow: 5px 5px 15px, -5px -5px 15px inset;
+            box-shadow: 5px 5px 15px/* , -5px -5px 15px inset */;
             width: 90%;
             nav>ul>li>a {
                 font-family: $primary-font-bold;
@@ -209,8 +193,6 @@
                 border-radius: 10px;
                 width: 100%;
                 height: 95%;
-                //margin-top: 20px;
-                //box-shadow:$boxshadow;
                 font-family: $primary-font-medium;
                 overflow-y: auto;
                 overflow-x: hidden;
@@ -220,6 +202,7 @@
                 -ms-overflow-style: none;  /* IE and Edge */
                 scrollbar-width: none;  /* Firefox */
                 h2 {
+                    //box-shadow:  -5px -5px -15px inset black;
                     position: sticky;
                     top: 0px;
                     padding: 20px;
@@ -227,6 +210,7 @@
                     min-height: 50px; 
                     font-size: 1.5rem;
                     width: auto;
+                    border-radius: 10px 0 0 10px;
                 }
                 p {
                     font-size: $normal;

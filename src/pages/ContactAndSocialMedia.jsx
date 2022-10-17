@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import JoachimRitter from '../components/JoachimRitter.js'
 import './ContactAndSocialMedia.scss'
 
 const ContactAndSocialMedia = () => (
@@ -10,11 +11,7 @@ const ContactAndSocialMedia = () => (
         <h1 >Contact and Social Media</h1>
       </div>
       <header className="box3">
-        <figure> 
-          {/* <img id="JRserious" src="./Images/Joachim_serious.jpg" alt="Joachim Ritter" /> */}
-            {/* <img id="JRprivate"src="./Images/Joachim_privat.JPG" alt="Joachim Ritter" /> */}
-            <figcaption>Joachim Ritter</figcaption>
-        </figure>
+      <JoachimRitter />
       </header>
       <div className="box4">
         <div>

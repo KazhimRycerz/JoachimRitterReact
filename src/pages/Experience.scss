@@ -13,7 +13,7 @@
     //background-color: rgba(195, 70, 30, 0.1);   
     h2 {
       background: linear-gradient(rgba(195, 70, 30, 0.5)50%, rgba(195, 70, 30, 0.0)), linear-gradient(rgba(255, 255, 255, 1.0)50%,rgba(255, 255, 255, 0.1)80%, rgba(255, 255, 255, 0.0)100%);
-      min-height: 80px;
+      min-height: 70px;
       margin-bottom: 0px;
       padding-left: 50px;
     }
@@ -39,6 +39,7 @@
           width: 100%;
           list-style-type:disc;
           list-style-position: outside;
+          //list-style-image: url('../Images/IMG_3559.PNG');
         }
 
       }
