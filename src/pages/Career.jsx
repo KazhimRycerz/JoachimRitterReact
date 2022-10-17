@@ -70,11 +70,11 @@ const Career = () => (
         </ul>
       </nav>
       <div className="box7">
-        <figure><img id="buchMitLicht" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn2" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn3" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn4" src="./Images/buchMitLicht.png" alt="" /></figure>
-        <figure><img id="nn5" src="./Images/buchMitLicht.png" alt="" /></figure>
+      <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>

@@ -29,7 +29,7 @@ const References = () => (
               <h3>My personality test</h3>
               <div className="apparisal">
                 <h4>Certified by 16Personalities</h4>
-                <a href="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</a>
+                <Link to="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</Link>
               </div>
               <h3>Fellowship</h3>
               <div className="apparisal">
