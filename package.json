@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "main": "src/index.js",
   "private": true,
-  "dependencies": {
+  "homepage":
+ "https://kazhimrycerz.github.io/JoachimRitterReact/",  "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
