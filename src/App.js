@@ -27,6 +27,7 @@ function App() {
           <Route path="/References" element={<References />} />
           <Route path="/MyFuture" element={<MyFuture />} />
           <Route path="/ContactAndSocialMedia" element={<ContactAndSocialMedia />} />
+          <Route path="/JoachimRitterReact" element={<Home />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>
