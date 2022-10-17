@@ -13,6 +13,7 @@ import Sixth from '../Images/IMG_3560.PNG'
 import Seventh from '../Images/IMG_3554.PNG'
 import Eigth from '../Images/IMG_3679.PNG'
 import Ninth from '../Images/IMG_3680.PNG'
+import titelPLD88 from '../Images/PLD_80_Titel_D.jpg'
 
 const Home = () => (
     <div className="bg">
@@ -67,7 +68,7 @@ const Home = () => (
       </nav>
         <div className="box7">
           <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
-          <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
+          <figure><img id="titelPLD88" src={titelPLD88} alt="" /></figure>
           <figure><img id="nn3" src={Lohhof} alt="" /></figure>
           <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
           {/* <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure> */}

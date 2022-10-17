@@ -29,8 +29,8 @@ const Motivation = () => (
             <div id="motivation_JR">
               <p>Enjoying your professional work sounds very unusual or even crazy. But I am not crazy. I enjoy to fill my live with things I can develop and be satisfied with.</p>
               <p>Working from 8 to 17.00 is not what I believe in. When I caught fire for something and I am really burning to learn and use my skills. </p>
-              <p>Mostly I feeel attracked by project which are new and not existing on the market. Therefore it is necessary to understand humans, the society and business-structures. I believe in the revolution of the digitalisation, although I am also able to see risks and negative developments which I can deal with and continiously adapt my believes and convictions   </p>
-              <p>Therefore I am also proud of my current career and experience as a 
+              <p>Mostly I feel attracked by project which are new and not existing on the market. Therefore it is necessary to understand humans, the society and business-structures. I believe in the revolution of the digitalisation, although I am also able to see risks and negative developments which I can deal with and continiously adapt my believes and convictions.   </p>
+              <p>Therefore I am also proud of my current career and experiences as a 
               </p>              
                 <p>
                   <li>journalist</li>
@@ -68,7 +68,6 @@ const Motivation = () => (
         <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn6" src={BuchmitLicht} alt="" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>

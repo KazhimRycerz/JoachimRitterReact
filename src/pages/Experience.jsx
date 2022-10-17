@@ -4,6 +4,8 @@ import './Experience.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
 import Basis from '../Images/1200px-Fingerprint_picture.png'
 import Fifth from '../Images/IMG_3559.PNG'
+import DCIZertifikatOK from '../Images/Zertifikat_DCI_Joachim Ritter.jpg'
+
 
 const Experience = () => (
   <div className="bg">
@@ -96,7 +98,7 @@ const Experience = () => (
         <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="DCIZOK" src={DCIZertifikatOK} alt="" /></figure>
       
       </div>
       <div className="box8"></div>

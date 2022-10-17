@@ -4,6 +4,7 @@ import './PersonalData.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
 import Basis from '../Images/1200px-Fingerprint_picture.png'
 import First from '../Images/IMG_3561.PNG'
+import treeInRed from '../Images/tree_in_red.jpg'
 
 const PersonalData = () => (
   <div className="bg">
@@ -53,7 +54,7 @@ const PersonalData = () => (
               </tr>
               <tr>
                   <td>private activities</td>
-                  <td>sport, cooking, reading, literature, further education, Norway</td>
+                  <td>sport, cooking, photography, literature, further education, Norway</td>
               </tr>
             </table>       
           </article>
@@ -72,11 +73,9 @@ const PersonalData = () => (
       </nav>
       <div className="box7">
         <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="nn2" src={treeInRed} alt="" /></figure>
         <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn6" src={BuchmitLicht} alt="" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>

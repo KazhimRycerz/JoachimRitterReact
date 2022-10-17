@@ -4,6 +4,8 @@ import './References.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
 import Basis from '../Images/1200px-Fingerprint_picture.png'
 import Seventh from '../Images/IMG_3554.PNG'
+import DCIZertifikatOK from '../Images/Zertifikat_DCI_Joachim Ritter.jpg'
+import Guide from '../Images/guide.jpg'
 
 const References = () => (
   <div className="bg">
@@ -28,14 +30,20 @@ const References = () => (
             <div id="references_JR">
               <h3>My personality test</h3>
               <div className="apparisal">
-                <h4>Certified by 16Personalities</h4>
+                <h4>Classified as "Comander", certified by 16Personalities</h4>
                 <Link to="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</Link>
+              </div>
+              <h3>Special projects</h3>
+              <div className="apparisal">
+                <h4>Competition</h4>
+                <p>2nd price of Guide 2022 - Startup and Innopreneurship  University Duisburg-Essen, supported and funded by the German Ministery for Economy and Climate Protection and eXist - Startups from inside the Industry.  </p>
+                <p>Project submitted: Qanat 21 - a watermanagementsystem to minimize extreme weather phenomena and minimize the consequences of extreme weather conditions and water shortage</p>
               </div>
               <h3>Fellowship</h3>
               <div className="apparisal">
                 <h4>Professional Lighting Designers' Asscoiation</h4>
                 <p>Honory Fellow Membership since 2007</p>
-                <h4>Meber of the DJV - Deutscher Jpurnalistenverband</h4>
+                <h4>Member of the DJV - Deutscher Jpurnalistenverband</h4>
                 <p>Silver medal for 25 years of membership</p>
               </div>
               <h3>Some former clients</h3>
@@ -164,8 +172,8 @@ const References = () => (
         <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn2" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure>
+        <figure><img id="DCIZOK" src={DCIZertifikatOK} alt="" /></figure>
+        <figure><img id="guide" src={Guide} alt="" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>

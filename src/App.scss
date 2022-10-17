@@ -295,7 +295,7 @@
                 height: 60%;
                 width: 15%;
                 img {
-                    height: fit-content;
+                    object-fit:contain;
                     width: 100%;
                     height: 100%;
                 }
