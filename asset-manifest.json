@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JoachimRitterReact/static/css/main.dc6f9d1a.css",
-    "main.js": "/JoachimRitterReact/static/js/main.57ee7ef5.js",
+    "main.js": "/JoachimRitterReact/static/js/main.c41278b0.js",
     "static/media/Lohhof.jpg": "/JoachimRitterReact/static/media/Lohhof.e8e288019d65766c2fc7.jpg",
     "static/media/PLD_80_Titel_D.jpg": "/JoachimRitterReact/static/media/PLD_80_Titel_D.cf112f6c26b56d64b29c.jpg",
     "static/media/FrederickatheGreat-Regular.otf": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.71d00f9bfe711bfefaa4.otf",
@@ -47,10 +47,10 @@
     "static/media/VIA-Verlag.woff2": "/JoachimRitterReact/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/JoachimRitterReact/index.html",
     "main.dc6f9d1a.css.map": "/JoachimRitterReact/static/css/main.dc6f9d1a.css.map",
-    "main.57ee7ef5.js.map": "/JoachimRitterReact/static/js/main.57ee7ef5.js.map"
+    "main.c41278b0.js.map": "/JoachimRitterReact/static/js/main.c41278b0.js.map"
   },
   "entrypoints": [
     "static/css/main.dc6f9d1a.css",
-    "static/js/main.57ee7ef5.js"
+    "static/js/main.c41278b0.js"
   ]
 }
