@@ -30,8 +30,15 @@ const References = () => (
             <div id="references_JR">
               <h3>My personality test</h3>
               <div className="apparisal">
-                <h4>Classified as "Comander", certified by 16Personalities</h4>
+                <h4>Classified as "Commander", certified by 16Personalities</h4>
                 <Link to="https://www.16personalities.com/profiles/ffa70d7bacbb3">Last made on 13. October 2022</Link>
+                <p>Insights about commanders. 
+                    <li>...need a job that gives them freedom to decide what they do, and how they do it</li>
+                    <li>...consider themselves ambitious</li>
+                    <li>...resist social pressure</li>
+                    <li>...be high achievers</li>
+                    <li>...enjoy setting goals for improving themselves</li>
+                    </p>
               </div>
               <h3>Special projects</h3>
               <div className="apparisal">
@@ -49,7 +56,7 @@ const References = () => (
               <h3>Some former clients</h3>
               <div className="apparisal">
                 <h4>Copywriting and translations</h4>
-                <p>Ansorg, Bertelsmann AG, Bertelsmann Fachzeitschriften, Erco, Flachgals, Pilkington, Selux, Thorn, Buschfeld Licht, Miele, Zumtobel uvam. </p>
+                <p>Ansorg, Bertelsmann AG, Bertelsmann Fachzeitschriften, Erco, Flachgals, Pilkington, Selux, Thorn, Buschfeld Licht, Miele, Zumtobel and others. </p>
               </div>
             
 

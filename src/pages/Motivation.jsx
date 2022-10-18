@@ -45,6 +45,14 @@ const Motivation = () => (
               <div>
                 <h3>Certified by 16Personalities:</h3>
                   <a href="https://www.16personalities.com/profiles/ffa70d7bacbb3">My personality test, last made on 13. October 2022</a><br /><br />
+                  <p>Result: Commander. 
+                    <li>...need a job that gives them freedom to decide what they do, and how they do it</li>
+                    <li>...consider themselves ambitious</li>
+                    <li>...resist social pressure</li>
+                    <li>...be high achievers</li>
+                    <li>...enjoy setting goals for improving themselves</li>
+                    </p>
+              
               </div>
             </div>
 
