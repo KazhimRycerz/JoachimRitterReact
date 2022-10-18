@@ -35,6 +35,8 @@
       padding-left: 0px;
       margin-bottom: 20px;
       width: 100%;
+      /* padding-bottom: 20px;
+      border-bottom: solid 3px; */
       h4 {
         margin: 0px 0 0 0;
         padding: 0px 0px 0px 0px;
@@ -55,6 +57,12 @@
         width: 90%;
       }
     }
+    .Trenner {
+      display: block;
+      width: 5%;
+      margin: 0 auto;
+    }
+
   }
 }
 

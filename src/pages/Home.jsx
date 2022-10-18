@@ -69,12 +69,13 @@ const Home = () => (
         </ul>
       </nav>
         <div className="box7">
-          <figure id="myOrigin" hover-text="Journalism and light - my origin" ><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
+          <figure id="myOrigin" hover-text="Journalism and light - 25 years of experience" ><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
           <figure id="PLDmagazine" hover-text="PLDmagazine - 20 years of publishing the leading lietrature in architectural lighting design"><img id="titelPLD88" src={titelPLD88} alt="" /></figure>
           <figure id="GutLohof" hover-text="Daylight museum Gut Lohhof in Welver"><img id="nn3" src={Lohhof} alt="" /></figure>
-          <figure><img id="nn4" src={HomePLD} alt="" /></figure>
+          <figure id="PLDWebsite" hover-text="PLD modern webdesign for a trade magazine in architecture" ><img id="nn4" src={HomePLD} alt="" /></figure>
           {/* <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure> */}
-          <figure><img id="LKHGT" src={LKHGT} alt="" /></figure>
+          <figure id="LKHGT" hover-text="Lighting design on the occasion of the International Day of the Elimination of Violence against Women 2021"><img  src={LKHGT} alt="" /></figure>
+          <figure id="NN" hover-text="Lighting design on the occasion of the International Day of the Elimination of Violence against Women 2021"><img  src={LKHGT} alt="" /></figure>
         </div>
         <div className="box8"></div>
         <div className="box9"></div>

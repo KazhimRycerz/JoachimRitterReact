@@ -46,6 +46,7 @@ const References = () => (
                 <li>...enjoy setting goals for improving themselves</li>
               </p>
             </div>
+            <img className="Trenner" src={Basis} />
             <h3>Special projects</h3>
             <div className="apparisal">
               <h4>Competition</h4>
@@ -61,6 +62,7 @@ const References = () => (
                 of extreme weather conditions and water shortage
               </p>
             </div>
+            <img className="Trenner" src={Basis} />
             <h3>Fellowship</h3>
             <div className="apparisal">
               <h4>Professional Lighting Designers' Asscoiation</h4>
@@ -68,6 +70,7 @@ const References = () => (
               <h4>Member of the DJV - Deutscher Jpurnalistenverband</h4>
               <p>Silver medal for 25 years of membership</p>
             </div>
+            <img className="Trenner" src={Basis} />
             <h3>Some former clients</h3>
             <div className="apparisal">
               <h4>Copywriting and translations</h4>
@@ -77,7 +80,7 @@ const References = () => (
                 Zumtobel and others.{" "}
               </p>
             </div>
-
+            <img className="Trenner" src={Basis} />
             <h3>
               Some appraisals English lessons @ Lingoda <br /> Evaluations after
               the English lessons C2-Level
@@ -375,6 +378,9 @@ const References = () => (
         </figure>
         <figure>
           <img id="nn2" src={BuchmitLicht} alt="" />
+        </figure>
+        <figure>
+          <img id="nn3" src={BuchmitLicht} alt="" />
         </figure>
         <figure>
           <img id="nn3" src={BuchmitLicht} alt="" />

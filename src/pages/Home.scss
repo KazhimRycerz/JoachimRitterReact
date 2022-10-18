@@ -105,83 +105,63 @@ li i {
     color: white;
 }
 
-#myOrigin, #GutLohof, #PLDmagazine {
+#myOrigin, #GutLohof, #PLDmagazine, #PLDWebsite, #LKHGT, #NN {
     position: relative;
     //border-bottom: 1px dotted black;
   }
 
-  #myOrigin:before {
-    content: attr(hover-text);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 31% 76%, 18% 100%, 15% 75%, 0% 75%);
-    visibility: hidden;
-    opacity: 0;
-    width: 150px;
-    height: auto;
-    min-height: 100px;
-    background-color: rgba(69, 69, 69);
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px;
-    padding: 10px ;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    left: 10%;
-    top: -100%;
-  }
   
-  #myOrigin:hover:before {
-    opacity: 1;
-    visibility: visible;
-  }
-
-
-  #PLDmagazine:before {
-    content: attr(hover-text);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 31% 76%, 18% 100%, 15% 75%, 0% 75%);
-    visibility: hidden;
-    opacity: 0;
-    width: 150px;
-    height: auto;
-    min-height: 150px;
-    background-color: rgba(69, 69, 69);
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px;
-    padding: 10px ;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    left: 10%;
-    top: -150%;
-  }
-  
-  #PLDmagazine:hover:before {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  #GutLohof:before {
-    content: attr(hover-text);
-    visibility: hidden;
-    opacity: 0;
-    width: 200px;
-    background-color: rgba(69, 69, 69);
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px;
-    padding: 5px 0;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 10%;
-  }
-  
-  #GutLohof:hover:before {
-    opacity: 1;
-    visibility: visible;
-  }
+  #myOrigin:before, #PLDmagazine:before, #GutLohof:before, #PLDWebsite::before, #LKHGT:before, #NN:before {
+      content: attr(hover-text); 
+      clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 31% 76%, 20% 100%, 15% 75%, 0% 75%);
+      visibility: hidden;
+      opacity: 0;
+      width: 150px;
+      height: auto;
+      min-height: 100px;
+      background-color: rgba(69, 69, 69);
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px;
+      padding: 10px ;
+      transition: opacity 1s ease-in-out;
+      position: absolute;
+      z-index: 1;
+      left: 10%;
+      top: -100%;   
+    }
+    
+    #myOrigin:before {
+        top: -100%;
+    }
+    
+    #PLDmagazine:before {
+        min-height: 150px;
+        top: -150%;
+    }
+    
+    #GutLohof:before {
+        top: -100%;
+    }
+    
+    #PLDWebsite:before {
+        min-height: 150px;
+        top: -150%;
+    }
+    
+    #LKHGT:before {
+        min-height: 150px;
+        top: -150%;
+    }
+    #NN:before {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 55% 75%, 0% 75%);
+        min-height: 150px;
+        top: -150%;
+        left: -50%
+    }
+    
+    #myOrigin:hover:before, #PLDmagazine:hover:before, #GutLohof:hover:before, #PLDWebsite:hover:before, #LKHGT:hover:before, #NN:hover:before {
+        opacity: 1;
+        visibility: visible;
+    }
