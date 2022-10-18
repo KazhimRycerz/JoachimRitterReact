@@ -73,7 +73,7 @@ const PersonalData = () => (
       </nav>
       <div className="box7">
         <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn2" src={treeInRed} alt="" /></figure>
+        <figure id="myPhotoHobby" hover-text="Photo taken by JR and designed"><img  src={treeInRed} alt="Photo hobby: my Tree" /></figure>
         <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
         <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
       </div>

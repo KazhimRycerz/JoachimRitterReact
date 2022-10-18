@@ -51,3 +51,32 @@
       height: auto;
     } 
   }
+
+  #myPhotoHobby {
+    position: relative;
+    //border-bottom: 1px dotted black;
+  }
+
+  #myPhotoHobby:before {
+    content: attr(hover-text);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 10%;
+  }
+  
+  #myPhotoHobby:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }

@@ -46,7 +46,7 @@ const Home = () => (
         <div className="box5" id="box5home">
           <nav>
             <ul id="home_contens">
-                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> personal data</NavLink></li>
+                <li><NavLink to ="/PersonalData" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p>{/* <img src={Basis} /> */}<ion-icon name="finger-print-outline"></ion-icon></p> personal data</NavLink></li>
                 <li><NavLink to ="/Motivation" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> professional philosophy and motivation</NavLink></li>
                 <li><NavLink to ="/Career" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> career - how I met my ...</NavLink></li>
                 <li><NavLink to ="/Experience" onMouseEnter="lightTopicOn()" onMouseLeave="lightTopicOff()" ><p><ion-icon name="finger-print-outline"></ion-icon></p> experience and professional impact</NavLink></li>
@@ -69,9 +69,9 @@ const Home = () => (
         </ul>
       </nav>
         <div className="box7">
-          <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
-          <figure><img id="titelPLD88" src={titelPLD88} alt="" /></figure>
-          <figure><img id="nn3" src={Lohhof} alt="" /></figure>
+          <figure id="myOrigin" hover-text="Journalism and light - my origin" ><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
+          <figure id="PLDmagazine" hover-text="PLDmagazine - 20 years of publishing the leading lietrature in architectural lighting design"><img id="titelPLD88" src={titelPLD88} alt="" /></figure>
+          <figure id="GutLohof" hover-text="Daylight museum Gut Lohhof in Welver"><img id="nn3" src={Lohhof} alt="" /></figure>
           <figure><img id="nn4" src={HomePLD} alt="" /></figure>
           {/* <figure><img id="nn5" src={BuchmitLicht} alt="" /></figure> */}
           <figure><img id="LKHGT" src={LKHGT} alt="" /></figure>
