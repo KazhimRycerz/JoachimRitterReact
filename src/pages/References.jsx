@@ -5,7 +5,7 @@ import BuchmitLicht from "../Images/buchMitLicht.png";
 import Basis from "../Images/1200px-Fingerprint_picture.png";
 import Seventh from "../Images/IMG_3554.PNG";
 import DCIZertifikatOK from "../Images/Zertifikat_DCI_Joachim Ritter.jpg";
-import Guide from "../Images/guide.jpg";
+import GuideAwardCertificate from "../Images/GuideAwardCertificate.jpg";
 
 const References = () => (
   <div className="bg">
@@ -46,7 +46,7 @@ const References = () => (
                 <li>...enjoy setting goals for improving themselves</li>
               </p>
             </div>
-            <img className="Trenner" src={Basis} />
+            <img className="Trenner" alt="" src={Basis} />
             <h3>Special projects</h3>
             <div className="apparisal">
               <h4>Competition</h4>
@@ -62,7 +62,7 @@ const References = () => (
                 of extreme weather conditions and water shortage
               </p>
             </div>
-            <img className="Trenner" src={Basis} />
+            <img className="Trenner" alt="" src={Basis} />
             <h3>Fellowship</h3>
             <div className="apparisal">
               <h4>Professional Lighting Designers' Asscoiation</h4>
@@ -70,7 +70,7 @@ const References = () => (
               <h4>Member of the DJV - Deutscher Jpurnalistenverband</h4>
               <p>Silver medal for 25 years of membership</p>
             </div>
-            <img className="Trenner" src={Basis} />
+            <img className="Trenner" alt="" src={Basis} />
             <h3>Some former clients</h3>
             <div className="apparisal">
               <h4>Copywriting and translations</h4>
@@ -80,7 +80,7 @@ const References = () => (
                 Zumtobel and others.{" "}
               </p>
             </div>
-            <img className="Trenner" src={Basis} />
+            <img className="Trenner" alt="" src={Basis} />
             <h3>
               Some appraisals English lessons @ Lingoda <br /> Evaluations after
               the English lessons C2-Level
@@ -385,17 +385,11 @@ const References = () => (
         <figure>
           <img id="nn3" src={BuchmitLicht} alt="" />
         </figure>
-        <figure 
-          id="DCICertificat" 
-          hover-text="DCI Certificat WebBasics 2021">
-          <img src={DCIZertifikatOK} alt="DCICertificat 2021" />
+        <figure id="guide" hover-text="Guide-Competition 2022 Universität Duisburg-Essen">
+          <img src={GuideAwardCertificate} alt="Guide-Competition 2022 Universität Duisburg-Essen"/>
         </figure>
-        <figure
-          id="guide"
-          hover-text="Guide-Competition 2022 Universität Duisburg-Essen">
-          <img
-            src={Guide}
-            alt="Guide-Competition 2022 Universität Duisburg-Essen"/>
+        <figure id="DCICertificat" hover-text="DCI Certificat WebBasics 2021">
+          <img src={DCIZertifikatOK} alt="DCICertificat 2021" />
         </figure>
       </div>
       <div className="box8"></div>

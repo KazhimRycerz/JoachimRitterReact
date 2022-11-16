@@ -70,28 +70,30 @@
   color: rgb(100, 5, 80);
 }
 
-#guide {
+#guide, #DCICertificat {
   position: relative;
   //border-bottom: 1px dotted black;
 }
 
-#guide:before {
-  content: attr(hover-text);
-  visibility: hidden;
-  opacity: 0;
-  width: 140px;
-  background-color: rgba(100, 5, 80, 50);
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px;
-  padding: 5px 0;
-  transition: opacity 1s ease-in-out;
-
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 10%;
+#guide:before, #DCICertificat:before {
+  content: attr(hover-text); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 31% 76%, 20% 100%, 15% 75%, 0% 75%);
+    visibility: hidden;
+    opacity: 0;
+    width: 150px;
+    height: auto;
+    min-height: 100px;
+    background-color: rgba(69, 69, 69);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+    padding: 10px ;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: -100%;   
 }
 
 #guide:hover:before {
@@ -99,28 +101,11 @@
   visibility: visible;
 }
 
-#DCICertificat {
-  position: relative;
-  //border-bottom: 1px dotted black;
-}
-
 #DCICertificat:before {
-  content: attr(hover-text);
-  visibility: hidden;
-  opacity: 0;
-  width: 140px;
-  background-color: rgba(100, 5, 80, 50);
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px;
-  padding: 5px 0;
-  transition: opacity 1s ease-in-out;
-
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 10%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 55% 75%, 0% 75%);
+  min-height: 100px;
+  top: -100%;
+  left: -50%
 }
 
 #DCICertificat:hover:before {

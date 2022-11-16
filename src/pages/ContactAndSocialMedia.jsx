@@ -34,6 +34,9 @@ const ContactAndSocialMedia = () => (
             <li><a href="https://www.instagram.com/ritter_joachim/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-instagram"></ion-icon><p>Enjoy my pictures...</p></a></li>
             <li><a href="https://twitter.com/RitterJoachim/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-twitter"></ion-icon><p>Some of my opinions...</p></a></li>
             <li><a href="https://www.facebook.com/joachim.ritter.31/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-facebook"></ion-icon><p>My private network...just in case...</p></a></li>
+            {/* <li><a href="https://www.telegram.com/joachim.rycerz/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-telegram"></ion-icon><p>My private network...just in case...</p></a></li> */}
+            <li><a href="https://telegram.com/Joachim_Rycerz/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-telegram"></ion-icon><p>Another network...</p></a></li>
+            <li><a href="https://mastodon.com/@kazhim_rycerz@dju.social/" alt="" rel="noreferrer" target="_blank"><ion-icon name="logo-mastodon"></ion-icon><p>Another network...</p></a></li>
             <li><a href="skype:jritter_43/"><ion-icon name="logo-skype"></ion-icon><p>For deeper collaboration and communication...</p></a></li>
             <li><a href="slack:Joachim Ritter"><ion-icon name="logo-slack"></ion-icon><p>or slacking...</p></a></li>
             <li><ion-icon name="videocam-outline"></ion-icon><p>or zoom...</p></li>

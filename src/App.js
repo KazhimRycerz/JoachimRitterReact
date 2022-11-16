@@ -1,15 +1,15 @@
 import React from "react";
 import {  
   BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
-import PersonalData from './pages/PersonalData'
-import Motivation from './pages/Motivation'
-import Career from './pages/Career'
-import Experience from './pages/Experience'
-import References from './pages/References'
-import MyFuture from './pages/MyFuture'
-import ContactAndSocialMedia from './pages/ContactAndSocialMedia'
-import Page404 from './pages/Page404';
+import Home from './pages/Home.jsx'
+import PersonalData from './pages/PersonalData.jsx'
+import Motivation from './pages/Motivation.jsx'
+import Career from './pages/Career.jsx'
+import Experience from './pages/Experience.jsx'
+import References from './pages/References.jsx'
+import MyFuture from './pages/MyFuture.jsx'
+import ContactAndSocialMedia from './pages/ContactAndSocialMedia.jsx'
+import Page404 from './pages/Page404.jsx';
 import './App.scss';
    
 
