@@ -31,7 +31,7 @@ const Career = () => (
             <p> 09/2021 - 11/2021 </p>
             <p> Basic course on webdesign, AWS, Social Media Marketing</p>
             <p> 09/2021 - 11/2021 </p>
-            <p> Full stack webdesign and webdevelopment -> front-end, back-end</p>
+            <p> Full stack webdesign and webdevelopment -> frontend, backend</p>
             <p> 12/2021 - 12/2022 </p>
             <h4>Publisher, Editor-in-Chief and Owner of VIA-Verlag</h4>
             <p> 04/1994 - today <br />

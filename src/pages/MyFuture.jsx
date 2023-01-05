@@ -30,6 +30,7 @@ const MyFuture = () => (
               <p> I still enjoy developing new ideas and accept challenges. My philosophy is "living to work instead of working to survive". Nevertheless I am realistic and evaluate before I accept a challenge. I am able to analyse and make realistic decisions.</p><br />
               <p> In this aspect webdesign and webdevelopment is a consequent step. From the conventional communication and printing technology of the last century / millenium now being able to be a part of the digital revolution is my basis for the upcoming years. Seeing opportunities and realising new developments is just my thing.</p>
               <p>Webdesign is the consequent part of my professional career and personal development.</p>
+              <p>Nevertheless, I am not fixed to this one path. I believe that future offers several paths for me to experiencemy philosophy and I am open to choose the most existing one...</p>
             </div>
         </article>
       </div>
