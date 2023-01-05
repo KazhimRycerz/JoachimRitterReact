@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JoachimRitterReact/static/css/main.f12ac354.css",
-    "main.js": "/JoachimRitterReact/static/js/main.22bcdbe0.js",
+    "main.css": "/JoachimRitterReact/static/css/main.9658cb3f.css",
+    "main.js": "/JoachimRitterReact/static/js/main.87505946.js",
     "static/media/Lohhof.jpg": "/JoachimRitterReact/static/media/Lohhof.e8e288019d65766c2fc7.jpg",
     "static/media/PLD_80_Titel_D.jpg": "/JoachimRitterReact/static/media/PLD_80_Titel_D.cf112f6c26b56d64b29c.jpg",
     "static/media/FrederickatheGreat-Regular.otf": "/JoachimRitterReact/static/media/FrederickatheGreat-Regular.71d00f9bfe711bfefaa4.otf",
@@ -49,11 +49,11 @@
     "static/media/VIA-Verlag.otf": "/JoachimRitterReact/static/media/VIA-Verlag.f9b0807e13383d5cb88c.otf",
     "static/media/VIA-Verlag.woff2": "/JoachimRitterReact/static/media/VIA-Verlag.ca1bde523566b12176ee.woff2",
     "index.html": "/JoachimRitterReact/index.html",
-    "main.f12ac354.css.map": "/JoachimRitterReact/static/css/main.f12ac354.css.map",
-    "main.22bcdbe0.js.map": "/JoachimRitterReact/static/js/main.22bcdbe0.js.map"
+    "main.9658cb3f.css.map": "/JoachimRitterReact/static/css/main.9658cb3f.css.map",
+    "main.87505946.js.map": "/JoachimRitterReact/static/js/main.87505946.js.map"
   },
   "entrypoints": [
-    "static/css/main.f12ac354.css",
-    "static/js/main.22bcdbe0.js"
+    "static/css/main.9658cb3f.css",
+    "static/js/main.87505946.js"
   ]
 }
