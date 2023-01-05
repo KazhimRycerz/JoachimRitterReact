@@ -384,7 +384,7 @@ const References = () => {
           <figure className="box7_figures_buch">
             <img src={BuchmitLicht} alt="" />
           </figure>
-          <figure className="box7_figures" id="DCICertificateWebdeveloper" hover-text="DCI Certificat full stack webdeveloper 2022">
+          <figure className="box7_figures" id="DCICertificateWebdeveloper" hover-text="DCI Certificate full stack webdeveloper 2022">
             <img src={DCI_certificate_webdeveloper_en} alt="" />
           </figure>
           <figure className="box7_figures" id="lingoda" hover-text="Lingoda certificat on 60 hours C2 module in English"> 
@@ -394,7 +394,7 @@ const References = () => {
             <img src={GuideAwardCertificate} alt="Guide-Competition 2022 Universität Duisburg-Essen"/>
           </figure>
           <figure className= "box7_figures"
-          id="DCICertificat" hover-text="DCI Certificat WebBasics 2021">
+          id="DCICertificat" hover-text="DCI Certificate WebBasics 2021">
             <img src={DCIZertifikatOK} alt="DCICertificat 2021" />
           </figure>
         </div>
