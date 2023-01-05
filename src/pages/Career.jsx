@@ -33,27 +33,34 @@ const Career = () => (
             <p> 09/2021 - 11/2021 </p>
             <p> Full stack webdesign and webdevelopment -> frontend, backend</p>
             <p> 12/2021 - 12/2022 </p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Publisher, Editor-in-Chief and Owner of VIA-Verlag</h4>
             <p> 04/1994 - today <br />
             PLD - Professional Lighting Design Magazine, PLDC - Professional Lighting Design Convention, publishing of specialized books, educational events - working globally
             </p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Management and redevelopment of an open air museum "Gut Lohhof"</h4>
             <p> 01/2019 - 05/2020 <br />
             strategic work, conception, redevelopment and running the private museum including running a cafe and staging professional, private and public events.
             </p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Management and redevelopment of the "Alströmer Magasinet" in Alingsås/S</h4>
             <p> 01/2010 - 12/2012 <br />
             strategic work, conception, redevelopment and running a private museum on lighting design, including offering educational events
             </p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Freelance writer, copywriter and translator</h4>
             <p>Buero Ritterstern 08/1990 - still continiuing <br />
             Journalist, texts, translations into German and English, conceptionist, strategic concepts</p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Initiator and founding member of PLDA e.V. - Professional Lighting Designers' Association</h4>
             <p>08/1994 - 05/2011<br />
             Creative and strategic mind behind PLDA - a global association for professional lighting designers in architecture. Board member and finacial manager from 1994 - 2008, FPLDA, Fellow member from 2005. Involved in the development of the PLDA educational workshops from 1998 - 2012.</p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Eitorial staff</h4>
             <p>Bertelsmann Fachzeitschriften 02/1985 - 01/1994 <br />
             Junior editor of the DBZ - Architectural magazine, Computer Spezial, Editor-in-Chief of Architecture &amp; Light magazine and development of new fields for magazines</p>
+            <img className="Trenner" alt="" src={Basis} />
             <h4>Basic education</h4>
             <p>Bertelsmann AG 02/1983 - 01/1985 <br />
             Voctional business school. <br />Degree: Verlagskaufmann</p>

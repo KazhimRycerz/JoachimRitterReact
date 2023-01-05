@@ -39,14 +39,14 @@ const Experience = () => (
                       <li> Giving papers worldwide on architrecture and lighting design</li>
                     
                   </div>
-
+                  <img className="Trenner" alt="" src={Basis} />
                   <div>
                     <h4>Market impact</h4>
                     <li> PLDA e.V, founded as European Lighting Designers' Association was the first international association of a profession not existing. By strategic activities the profession is now acknowledged in the architectural market.  </li>
                     <li>First public international educational workshops in lighting design / Alingsås/SE</li>
                     <li> Created the largest first convention on professional lighting design wordlwide. PLDC developed to the most important trendsetting event with 2100 attendees in Paris 2017. PLDC was staged in London/GB, Berlin/DE, Madrid/ES, Copenhagen/DK, Rom/IT, Paris/FR, Ingapore/SG and Rotterdam/NL</li>
                   </div>
-
+                  <img className="Trenner" alt="" src={Basis} />
                   <div>
                     <h4> Software knowhow</h4>
                     <li> MS Office  --> professional</li>
@@ -60,9 +60,9 @@ const Experience = () => (
                     <li> helpers: Canva Colors, CSS gradient, Clippy,  --> ready for practical cases </li> 
                     <li> professionality: GitHub, Heroku, Slack, Brello --> ready for practical cases </li> 
                     <li> Website Builders: Wix, WordPress</li> 
-                    <li> on my list to explore next: React Native, animate.css, TypeIt, Animated Transition Effects</li>
+                    <li> on my list to explore next: MySQL, React Native, animate.css, TypeIt, Animated Transition Effects</li>
                   </div>
-
+                  <img className="Trenner" alt="" src={Basis} />
                   <div>
                     <h4> Hardware knowhow / operating systems</h4>
                     <li> Apple --> OS</li>
@@ -70,7 +70,7 @@ const Experience = () => (
                     <li> Linux --> Ubuntu</li>
                     <li> Networks --> basic understanding</li>                  
                   </div>
-                    
+                  <img className="Trenner" alt="" src={Basis} />
                   <div>
                     <h4>Lanuage skills</h4>
                     <li> German --> native language</li>
