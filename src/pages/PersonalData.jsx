@@ -2,9 +2,6 @@ import { NavLink } from 'react-router-dom'
 import JoachimRitter from '../components/JoachimRitter.js'
 import './PersonalData.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
-import Basis from '../Images/1200px-Fingerprint_picture.png'
-import First from '../Images/IMG_3561.PNG'
-import treeInRed from '../Images/tree_in_red.jpg'
 
 const PersonalData = () => (
   <div className="bg">
@@ -20,8 +17,8 @@ const PersonalData = () => (
       </header>
       <div className="box4">
         <div>
-          <img id="basis" src={Basis} alt="" />
-          <img className="first" src={First} alt="" />
+        <img id="basis" src={require('../Images/1200px-Fingerprint_picture.png')} alt="" />
+          <img id="first" src={require('../Images/IMG_3561.PNG')} alt="" />
         </div>
       </div>  
       <div className="box5" id="box5pd">
@@ -54,7 +51,7 @@ const PersonalData = () => (
               </tr>
               <tr>
                   <td>private activities</td>
-                  <td>sport, cooking, photography, literature, further education, Norway</td>
+                  <td>sport, cooking/baking, photography, literature, further education, Norway</td>
               </tr>
             </table>       
           </article>
@@ -73,9 +70,11 @@ const PersonalData = () => (
       </nav>
       <div className="box7">
         <figure><img id="buchMitLicht" src={BuchmitLicht} alt="" /></figure>
-        <figure id="myPhotoHobby" hover-text="Photo taken by JR and designed"><img  src={treeInRed} alt="Photo hobby: my Tree" /></figure>
-        <figure><img id="nn3" src={BuchmitLicht} alt="" /></figure>
-        <figure><img id="nn4" src={BuchmitLicht} alt="" /></figure>
+        <figure id="myPhotoHobby" hover-text="Photo taken by JR and designed"><img  src={require('../Images/tree_in_red.jpg')} alt="Photo hobby: my Tree" /></figure>
+        <figure id="mySkiingHobby" hover-text="Skiing in Sölden/A"><img  src={require('../Images/JRinSölden.jpg')} alt="Photo hobby: skiing" /></figure>
+        <figure id="myPhotoHobby2" hover-text="architectural photography"><img  src={require('../Images/DeitailExtersteine.jpg')} alt="Photo hobby 2" /></figure>
+        <figure id="myPhotoHobby3" hover-text="portrait photography"><img  src={require('../Images/KAimMohnspark.jpg')} alt="Photo hobby" /></figure>
+        <figure id="myCookingHobby" hover-text="Osterzopf"><img  src={require('../Images/Osterzopf.jpg')} alt="Also hobby: baking" /></figure>
       </div>
       <div className="box8"></div>
       <div className="box9"></div>

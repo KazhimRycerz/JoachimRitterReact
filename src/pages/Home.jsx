@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import JoachimRitter from '../components/JoachimRitter.js'
 import './Home.scss'
-import Lohhof from '../Images/Lohhof.jpg'
+/* import Lohhof from '../Images/Lohhof.jpg'
 import BuchmitLicht from '../Images/buchMitLicht.png'
 import Basis from '../Images/1200px-Fingerprint_picture.png'
 import First from '../Images/IMG_3561.PNG'
@@ -12,11 +12,11 @@ import Fifth from '../Images/IMG_3559.PNG'
 import Sixth from '../Images/IMG_3560.PNG'
 import Seventh from '../Images/IMG_3554.PNG'
 import Eigth from '../Images/IMG_3679.PNG'
-import Ninth from '../Images/IMG_3680.PNG'
+import Ninth from '../Images/IMG_3680.PNG' 
 import titelPLD88 from '../Images/PLD_80_Titel_D.jpg'
 import LWLGT from '../Images/LWLGT.jpg'
 import Logo_Qanat21 from '../Images/Qanat21_Logo_Q.png'
-import HomePLD from '../Images/homepagePLDM.jpg'
+import HomePLD from '../Images/homepagePLDM.jpg'*/
 
 const Home = () => (
     <div className="bg">
@@ -32,16 +32,16 @@ const Home = () => (
         </header>
         <div className="box4">
           <div>
-            <img id="basis"   src={Basis} alt="" />
-            <img id="first"   src={First} alt="" />
-            <img id="second"  src={Second} alt="" />
-            <img id="third"   src={Third} alt="" />
-            <img id="fourth"  src={Fourth} alt="" />
-            <img id="fifth"   src={Fifth} alt="" />
-            <img id="sixth"   src={Sixth} alt="" />
-            <img id="seventh" src={Seventh} alt="" />
-            <img id="eigth"   src={Eigth} alt="" />
-            <img id="ninth"   src={Ninth} alt="" />
+            <img id="basis" src={require('../Images/1200px-Fingerprint_picture.png')} alt="" />
+            <img id="first" src={require('../Images/IMG_3561.PNG')} alt="" />
+            <img id="second" src={require('../Images/IMG_3556.PNG')} alt="" />
+            <img id="third" src={require('../Images/IMG_3557.PNG')} alt="" />
+            <img id="fourth" src={require('../Images/IMG_3558.PNG')} alt="" />
+            <img id="fifth" src={require('../Images/IMG_3559.PNG')} alt="" />
+            <img id="sixth" src={require('../Images/IMG_3560.PNG')} alt="" />
+            <img id="seventh" src={require('../Images/IMG_3554.PNG')} alt="" />
+            <img id="eigth" src={require('../Images/IMG_3679.PNG')} alt="" />
+            <img id="ninth" src={require('../Images/IMG_3680.PNG')} alt="" />
           </div>
         </div>
         <div className="box5" id="box5home">
@@ -71,22 +71,22 @@ const Home = () => (
       </nav>
         <div className="box7">
           <figure id="myOrigin" hover-text="Journalism and light - 25 years of experience" >
-            <img src={BuchmitLicht} alt="" />
+            <img src={require('../Images/buchMitLicht.png')} alt="" />
           </figure>
           <figure id="PLDmagazine" hover-text="PLDmagazine - 20 years of publishing the leading literature in architectural lighting design">
-            <img src={titelPLD88} alt="" />
+            <img src={require('../Images/PLD_80_Titel_D.jpg')} alt="" />
           </figure>
           <figure id="GutLohof" hover-text="Daylight museum Gut Lohhof in Welver">
-            <img id="nn3" src={Lohhof} alt="" />
+            <img id="nn3" src={require('../Images/Lohhof.jpg')} alt="" />
           </figure>
           <figure id="PLDWebsite" hover-text="PLD modern webdesign for a trade magazine in architecture">
-            <img src={HomePLD} alt="" />
+            <img src={require('../Images/homepagePLDM.jpg')} alt="" />
           </figure>
           <figure id="Qanat21" hover-text="Qanat12: 2nd price of the Guide Innovation Award 2022 - Strategist for overall project" >
-            <img src={Logo_Qanat21} alt="" />
+            <img src={require('../Images/Qanat21_Logo_Q.png')} alt="" />
           </figure>
           <figure id="LWLGT" hover-text="Lighting design on the occasion of the International Day of the Elimination of Violence against Women 2021">
-            <img src={LWLGT} alt="" />
+            <img src={require('../Images/LWLGT.jpg')} alt="" />
           </figure>
         </div>
         <div className="box8"></div>
