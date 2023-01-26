@@ -18,7 +18,7 @@ const PersonalData = () => (
       <div className="box4">
         <div>
         <img id="basis" src={require('../Images/1200px-Fingerprint_picture.png')} alt="" />
-          <img id="first" src={require('../Images/IMG_3561.PNG')} alt="" />
+          <img className="first" src={require('../Images/IMG_3561.PNG')} alt="" />
         </div>
       </div>  
       <div className="box5" id="box5pd">

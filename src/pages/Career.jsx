@@ -20,7 +20,7 @@ const Career = () => (
       <div className="box4">
         <div>
           <img id="basis" src={Basis} alt="" />
-          <img className="third" src={Third} alt="" />
+          <img className="third" src={require('../Images/IMG_3557.PNG')} alt="" />
         </div>
       </div>  
       <div className = "box5" id="box5ca">    

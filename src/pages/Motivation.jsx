@@ -2,8 +2,6 @@ import { NavLink } from 'react-router-dom'
 import JoachimRitter from '../components/JoachimRitter.js'
 import './Motivation.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
-import Basis from '../Images/1200px-Fingerprint_picture.png'
-import Second from '../Images/IMG_3556.PNG'
 
 const Motivation = () => (
   <div className="bg">
@@ -19,8 +17,8 @@ const Motivation = () => (
       </header>
       <div className="box4">
         <div>
-          <img id="basis" src={Basis} alt="" />
-          <img className="second" src={Second} alt="" />
+          <img id="basis" src={require('../Images/1200px-Fingerprint_picture.png')} alt="" />
+          <img className="second" src={require('../Images/IMG_3556.PNG')} alt="" />
         </div>
       </div>  
       <div className = "box5" id="box5mp">

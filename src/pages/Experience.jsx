@@ -3,7 +3,6 @@ import JoachimRitter from '../components/JoachimRitter.js'
 import './Experience.scss'
 import BuchmitLicht from '../Images/buchMitLicht.png'
 import Basis from '../Images/1200px-Fingerprint_picture.png'
-import Fifth from '../Images/IMG_3559.PNG'
 import DCIZertifikatOK from '../Images/Zertifikat_DCI_Joachim Ritter.jpg'
 
 
@@ -21,7 +20,7 @@ const Experience = () => (
       <div className="box4">
         <div>
           <img id="basis" src={Basis} alt="" />
-          <img className="fifth" src={Fifth} alt="" />
+          <img className="fifth" src={require('../Images/IMG_3559.PNG')} alt="" />
         </div>
       </div>  
       <div className="box5" id= "box5ei" >
